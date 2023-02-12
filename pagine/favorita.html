@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>La Favorita</title>
+  </head>
+  <body class="bg-light">
+    <div class="w3-top" width="100%">
+      <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+        <a href="../index.html" class="w3-bar-item w3-button"><b>Binocoli</b> Examining Libretti </a>
+        <!-- Float links to the right. Hide them on small screens -->
+        <div class="w3-right w3-hide-small">
+          <a href="../index.html#projects" class="w3-bar-item w3-button">Paths</a>
+          <a href="../index.html#contact" class="w3-bar-item w3-button">Corago</a>
+          <a href="../index.html#about" class="w3-bar-item w3-button">About</a>
+        </div>
+      </div>
+    </div>
+    <br><br><br>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+            <img src="image/logo-binocoli.png" alt="" width="100%" height="100%" style="margin-left: 18px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <!-- <a class="nav-link active" aria-current="page" href="#">Guida</a> -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Guide
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Donizetti's "La Favorita"</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <strong>Gaetano Donizetti</strong>'s <strong><i>"La Favorita"</i></strong> tells precisely of a long and complex publishing history characterized by multiple editions, translations, cuts and staging, profoundly different from each other and signed by an alternation of different librettists, starting with the first French edition "La favorita," first staged in <strong>Paris in 1840</strong> and translated into Italian by <strong>Fausto Broussard</strong> for the publisher "Ricordi": <br> by librettists <strong>Alphonse Royer, Gustave Vaëz and Eugene Scribe</strong>, it was presented as a reinterpretation of the "Ange de Nisida," commissioned the year before by Donizetti himself, characterized by the first changes in places, eras and names; in fact, the story was rewritten around the love triangle between the historical characters of <strong>Alfonso XI of Castile</strong>, his "favorite" <strong>Leonora of Guzman</strong> and the novice friar Fernando. <br><br>
+                      The <strong>1842</strong> second edition edited by librettist <strong>Francesco Jannetti</strong> is the first Italian translation, and features a number of radical changes contextual to linguistic, audience and Catholic censorship demands that Donizetti disapproved of, starting with the unofficial title <i>"Leonora di Guzman"</i> chosen for the <strong>Padua</strong> premiere: in addition to italianizing the names, replacing the French Alexandrines with Italian loose verse and merging or splitting scenes, Jannetti lightened and "secularized" some situations and characters from the French original, retouching many verses, especially in the final bars, to make them consistent with the content. <br><br>
+                      In the following years, "La Favorita" was the subject of further translations and revisions, such as the one commissioned in <strong>1843</strong> by La Scala in <strong>Milan</strong> to librettist <strong>Callisto Bassi</strong>, who set it in Syria in 1113 with the title <i>"Elda"</i> and with the curtain falling immediately after Leonora's death, while in other contexts Jannetti's ending continued to be used. <br>In <strong>1860</strong>, however, a version by <strong>Giuseppe Cencetti</strong> entitled <i>"Daila"</i> was staged in </strong>Rome</strong>, set among the Ottomans in the 14th century, with a mixed text of the previous two.
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" target=”_blank” href="testi/favorita.xml">XML file</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Dramatis Personae</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" aria-current="page" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Authors
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="favorita.html" onclick="apri('#tab11-tab')">Donizetti</a></li>
+                <li><a class="dropdown-item" href="tancredi.html" onclick="apri('#tab12-tab')">Rossini</a></li>
+                <!--li><hr class="dropdown-divider"></li-->
+                <li><a class="dropdown-item" href="macbeth.html" onclick="apri('#tab13-tab')">Verdi</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <div class="container px-4 bg-light"> <!-- container delle due sezioni a tab-->
+      <div class="row gx-5 bg-light" width="60"> <!-- definizione della riga -->
+        <div class="col-4">
+         <div class="p-2 border bg-light">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="tab11-tab" data-bs-toggle="tab" data-bs-target="#tab11" type="button" role="tab" aria-controls="home" aria-selected="true">Paris</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="tab12-tab" data-bs-toggle="tab" data-bs-target="#tab12" type="button" role="tab" aria-controls="profile" aria-selected="false">Padua</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="tab13-tab" data-bs-toggle="tab" data-bs-target="#tab13" type="button" role="tab" aria-controls="contact" aria-selected="false">Milan</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="tab14-tab" data-bs-toggle="tab" data-bs-target="#tab14" type="button" role="tab" aria-controls="contact" aria-selected="false">Rome</button>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="tab11" role="tabpanel" aria-labelledby="tab1-tab">
+              <iframe src="https://s9.imslp.org/files/imglnks/usimg/6/67/IMSLP335046-SIBLEY1802.14233.40ef-39087009008261text.pdf" width="100%" height="400" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+            </div>
+            <div class="tab-pane fade" id="tab12" role="tabpanel" aria-labelledby="tab2-tab">
+              <iframe src="https://archive.org/embed/leonoradiguzmand00roye/page/54/mode/2up" width="100%" height="400" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+            </div>
+            <div class="tab-pane fade" id="tab13" role="tabpanel" aria-labelledby="tab3-tab">
+              <iframe src="https://archive.org/embed/lafavoritaoperai00doni/page/36/mode/2up" width="100%" height="400" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+            </div>
+            <div class="tab-pane fade" id="tab14" role="tabpanel" aria-labelledby="tab4-tab">
+              <iframe src="https://archive.org/embed/dailadrammaliric00doni/page/34/mode/2up" width="100%" height="400" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+            </div>
+          </div>
+         </div>
+        </div>
+        <div class="col-4">
+          <div class="p-2 border bg-light">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#tab21" type="button" role="tab" aria-controls="home" aria-selected="true">Paris</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#tab22" type="button" role="tab" aria-controls="profile" aria-selected="false">Padua</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#tab23" type="button" role="tab" aria-controls="contact" aria-selected="false">Milan</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#tab24" type="button" role="tab" aria-controls="contact" aria-selected="false">Rome</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="tab21" role="tabpanel" aria-labelledby="tab1-tab">
+                <iframe src="testi/Jannetti_Favorita_1840.html" width="100%" height="420" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+              </div>
+              <div class="tab-pane fade" id="tab22" role="tabpanel" aria-labelledby="tab2-tab">
+                  <iframe src="testi/La Favorita_1842.html" width="100%" height="400" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+              </div>
+              <div class="tab-pane fade" id="tab23" role="tabpanel" aria-labelledby="tab3-tab">
+                  <iframe src="testi/La favorita_Elda_1843.html" width="100%" height="400" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+              </div>
+              <div class="tab-pane fade" id="tab24" role="tabpanel" aria-labelledby="tab4-tab">
+                  <iframe src="testi/La favorita Daila 1860.html" width="100%" height="400" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+              </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-4">
+          <a class="w3-bar-item w3-button"><b>Confront and examine editions</b></a>
+          <!-- <img src="image/legenda.png" style="width:100%"> -->
+          <div class="p-2 border bg-light">
+           <ul class="nav nav-tabs" id="myTab" role="tablist">
+             <li class="nav-item" role="presentation">
+               <button class="nav-link active" id="tab31-tab" data-bs-toggle="tab" data-bs-target="#tab31" type="button" role="tab" aria-controls="home" aria-selected="true">Version 1</button>
+             </li>
+             <li class="nav-item" role="presentation">
+               <button class="nav-link" id="tab32-tab" data-bs-toggle="tab" data-bs-target="#tab32" type="button" role="tab" aria-controls="profile" aria-selected="false">Version 2</button>
+             </li>
+             <li class="nav-item" role="presentation">
+               <button class="nav-link" id="tab33-tab" data-bs-toggle="tab" data-bs-target="#tab33" type="button" role="tab" aria-controls="contact" aria-selected="false">Version 3</button>
+             </li>
+           </ul>
+           <div class="tab-content" id="myTabContent">
+             <div class="tab-pane fade show active" id="tab31" role="tabpanel" aria-labelledby="tab1-tab">
+               <iframe src="frankensteinfavorita1.html" width="100%" height="350" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+             </div>
+             <div class="tab-pane fade" id="tab32" role="tabpanel" aria-labelledby="tab2-tab">
+               <iframe src="frankensteinfavorita2.html" width="100%" height="350" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+             </div>
+             <div class="tab-pane fade" id="tab33" role="tabpanel" aria-labelledby="tab3-tab">
+               <iframe src="frankensteinfavorita3.html" width="100%" height="350" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
+             </div>
+           </div>
+          </div>
+
+         </div>
+        </div>
+      </div>
+      <div class="row gx-5"> <!-- definizione della riga -->
+        <div class="col">
+         <div class="p-3 border bg-light">
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Diachronic apparatus
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <iframe width="100%" src="testi/apparato_La_Favorita.html"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Positive apparatus
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Work in progress
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Negative apparatus
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Work in progress
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<script>
+  function apri(tab) {
+    var someTabTriggerEl = document.querySelector(tab);
+    var tab = new bootstrap.Tab(someTabTriggerEl);
+    tab.show();
+  }
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+  <footer class="w3-center w3-black w3-padding-16">
+    <p>Consiglio | Guenci | Mariani | Sorrentino <a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/478833" title="W3.CSS" target="_blank" class="w3-hover-text-blue">SEDT 22/23 | UniBo</a></p>
+  </footer>
+</html>

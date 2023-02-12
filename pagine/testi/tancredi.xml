@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc title="Tancredi" date="1813" location="Venice">
+         <titleStmt>
+            <title>Tancredi 1813 - Ferrara: Scena Ultima</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Unpublished transcription of the play Tancredi, written in 1813 and performed in Ferrara.</p>
+         </publicationStmt>
+         <sourceDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <sp who="#ame">
+            <speaker>Ame.</speaker>
+            <p>Gran Dio! Qual suon, quai grida!</p>
+         </sp>
+         <sp who="#arg">
+            <speaker>Arg.</speaker>
+            <p>Figlia….</p>
+         </sp>
+         <sp who="#ame">
+            <speaker>Ame.</speaker>
+            <p>E Tancred? Il mio Tancredi?....</p>
+         </sp>
+         <sp who="#arg">
+            <speaker>Arg.</speaker>
+            <p>Piena Vittoria egli ebbe sul nemico …. oh! dio
+            Ma funesta vittoria …. ei la sua patria
+            Salvò…. col proprio sangue….</p>
+         </sp>
+         <sp who="#ame">
+            <speaker>Ame.</speaker>
+            <p>È morto?!....</p>
+         </sp>
+         <sp who="#arg">
+            <speaker>Arg.</speaker>
+            <p>Appena regge il fianco trafitto…..
+            Nell’angoscie di morte il nome tuo
+            Sospirando ripete</p>
+         </sp>
+         <sp who="#ame">
+            <speaker>Ame.</speaker>
+            <p>Oh! Il mio Tancredi!</p>
+         </sp>
+         <sp who="#coro">
+            <speaker>Coro.</speaker>
+            <p>Muore il forte;
+            Il vincitor;
+            Ahi quale sangue!
+            Quale orror!</p>
+         </sp>
+         <sp who="#ame">
+            <speaker>Ame.</speaker>
+            <p>Barbari! È vano ogni rimorso…. oh dio
+            Tancredi! Sventurato….
+            E puoi tu udirmi ancora…. e puoi tu ancora
+            Su me fissare le moribonde luci?
+            Conoscimi, Tancredi,
+            Il mio dolor conosci….. la tua sposa –
+            Dunque l’ultimo sguardo or su di me volgi?
+            M’odj ancor? – Rea mi credi? </p>
+		</sp>
+		      <sp>
+        <speaker>Tanc.</speaker>
+        <p>(sollevandosi) Ah! -m’hai tradito-</p>
+      </sp>
+      <sp>
+        <speaker>Ame.</speaker>
+        <p>Io!...</p>
+      </sp>
+      <sp>
+        <speaker>Arg.</speaker>
+        <p>Sventurata figlia!</p>
+        <p>Essa t’amava,</p>
+        <p>E fu l’amarti il suo delitto. Ingiuste</p>
+        <p>Fur le leggi il senato….. a te fu scritto</p>
+        <p>Quel foglio, a te….</p>
+      </sp>
+      <sp>
+        <speaker>Tan.</speaker>
+        <p>M’ingannò! – Amenaide</p>
+        <p>Ed ami il tuo Tancredi?</p>
+      </sp>
+      <sp>
+        <speaker>Ame.</speaker>
+        <p>Io mille morti</p>
+        <p>Avrei mertate in non amarti; pensa</p>
+        <p>Se rea</p>
+      </sp>
+      <sp>
+        <speaker>Tan.</speaker>
+        <p>Tu m’ami? – A questi detti io sento</p>
+        <p>Che m’è grave il morir</p>
+      </sp>
+      <sp>
+        <speaker>Ame.</speaker>
+        <p>Dunque, gran Dio,</p>
+        <p>Così mia fe…..</p>
+      </sp>
+      <sp>
+        <speaker>Tan.</speaker>
+        <p>Quel pianto</p>
+        <p>Mi scende al cor… ma… oh dio… lasciarti io deggio.</p>
+        <p>Già la morte s’appressa… io già… la sento.</p>
+      </sp>
+      <sp>
+        <speaker>Argirio</speaker>
+        <p>, ascolta, ecco de’ voti miei…</p>
+        <p>Di mia fede l’oggetto… a quDi mia fede l’oggetto… a quella mano
+Or la mia destra insanguinata unisci;
+Di sposo… il nome io porterò alla tomba…
+E tu sarai mio padre? – A vendicare…
+La mia patria… la sposa…
+Vissi, … d’entrambe degno… amato io spiro
+Ora d’entrambe in seno…
+Ogni mio voto… è già… compito… appieno Ogni mio voto… è già… compito… appieno.
+ Amenaide… serbami
+Tua fè… quel… cor ch’è mio,
+Ti lascio… ah! tu di vivere
+Giurami, … sposa… addio. </p>
+     </sp>
+     </body>
+	</text>
+  <teiHeader>
+    <fileDesc title="Tancredi" date="1813" location="Ferrara">
+      <titleStmt>
+        <title>SCENA ULTIMA</title>
+		<p>Argirio, Tancredi, Roggiero, Saraceni, Prigionieri, Guerrieri, Popolo.</p>
+      </titleStmt>
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+      <sourceDesc>
+        <p></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <stage>
+        <sp>
+          <speaker>Argirio</speaker>
+          <l>Figlia…</l>
+        </sp>
+        <sp>
+          <speaker>Ame</speaker>
+          <l>Oh Padre!..</l>
+        </sp>
+        <sp>
+          <speaker>Tan</speaker>
+          <l>Idol mio!..</l>
+        </sp>
+        <sp>
+          <speaker>Ame</speaker>
+          <l>Tu! Mio Tancredi?</l>
+        </sp>
+        <sp>
+          <speaker>Tan</speaker>
+          <l>Pentito, amante, e vincitor mi vedi.</l>
+        </sp>
+        <sp>
+          <speaker>Ame</speaker>
+          <l>Ah, dunque!..</l>
+        </sp>
+        <sp>
+          <speaker>Tan</speaker>
+          <l>Solamiro
+            Da me trafitto, all’ultimo respiro
+            Svelò la bella tua innocenza, e rese
+            L’error comune, e il tuo grande cor palese.</l>
+        </sp>
+        <sp>
+          <speaker>Ame</speaker>
+          <l>tenerissima) Fedel mi credi?</l>
+        </sp>
+        <sp>
+          <speaker>Tan</speaker>
+          <l>affettuoso) Mi perdoni!</l>
+        </sp>
+        <sp>
+          <speaker>Arg</speaker>
+          <l>Oh figli! A Siracusa – ormai da suoi perigli
+            E libera la patria: Vieni, regna,
+            Trionfa:</l>
+        </sp>
+        <sp>
+          <speaker>Tan</speaker>
+          <l>ad Amenaide) Sul tuo cor regnar voglio! –
+            Questo da te desio sola mercede.</l>
+        </sp>
+        <sp>
+          <speaker>Ame</speaker>
+          <l>Trionfano così l’amor, la fede!..</l>
+        </sp>
+		<sp>
+		   <speaker>Amenaide</speaker>
+        <l>Tra quei soavi palpiti</l>
+        <l>Brillar mi sento il core!</l>
+        <l>Un delizioso ardore</l>
+        <l>Gioir; languir mi fa…</l>
+        <l>No, non vi posso esprimere</l>
+        <l>La mia felicità.</l>
+      </sp>
+      <sp>
+        <speaker>Argirio</speaker>
+        <l>Ah del piacer quest’anima</l>
+        <l>Respira ormai nel seno:</l>
+        <l>Tra voi felice appieno</l>
+        <l>Figli il mio cor sarà…</l>
+        <l>No, non vi posso esprimere</l>
+        <l>La mia felicità.</l>
+      </sp>
+      <sp>
+        <speaker>Tancredi</speaker>
+        <l>Si grande è il mio contento,</l>
+        <l>Si dolce è tal momento,</l>
+        <l>Che tanta gioia ancora</l>
+        <l>Credere il cor non sa..:</l>
+        <l>No: non vi posso esprimere</l>
+        <l>La mia felicità</l>
+      </sp>
+      <sp>
+        <speaker>Tutti</speaker>
+        <l>Si – tutto spiri intorno</l>
+        <l>Piacer, felicità:</l>
+        <l>Trionfano in tal giorno</l>
+        <l>Amore, e fedeltà:</l>
+      </sp>
+      <stage>FINE</stage>
+	  </stage>
+    </body>
+  </text>
+  <teiHeader>
+     <fileDesc title="Tancredi" date="1813" location="Milan">
+        <titleStmt>
+           <title>Tancredi 1813 - Ferrara: Scena Ultima</title>
+        </titleStmt>
+        <publicationStmt>
+           <p>Unpublished transcription of the play Tancredi, written in 1813 and performed in Ferrara.</p>
+        </publicationStmt>
+        <sourceDesc>
+        </sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <sp who="#ame">
+           <speaker>Ame.</speaker>
+           <p>Gran Dio! Qual suon, quai grida!</p>
+        </sp>
+        <sp who="#arg">
+           <speaker>Arg.</speaker>
+           <p>Figlia….</p>
+        </sp>
+        <sp who="#ame">
+           <speaker>Ame.</speaker>
+           <p>E Tancred? Il mio Tancredi?....</p>
+        </sp>
+        <sp who="#arg">
+           <speaker>Arg.</speaker>
+           <p>Piena Vittoria egli ebbe sul nemico …. oh! dio
+           Ma funesta vittoria …. ei la sua patria
+           Salvò…. col proprio sangue….</p>
+        </sp>
+        <sp who="#ame">
+           <speaker>Ame.</speaker>
+           <p>È morto?!....</p>
+        </sp>
+        <sp who="#arg">
+           <speaker>Arg.</speaker>
+           <p>Appena regge il fianco trafitto…..
+           Nell’angoscie di morte il nome tuo
+           Sospirando ripete</p>
+        </sp>
+        <sp who="#ame">
+           <speaker>Ame.</speaker>
+           <p>Oh! Il mio Tancredi!</p>
+        </sp>
+        <sp who="#coro">
+           <speaker>Coro.</speaker>
+           <p>Muore il forte;
+           Il vincitor;
+           Ahi quale sangue!
+           Quale orror!</p>
+        </sp>
+        <sp who="#ame">
+           <speaker>Ame.</speaker>
+           <p>Barbari! È vano ogni rimorso…. oh dio
+           Tancredi! Sventurato….
+           E puoi tu udirmi ancora…. e puoi tu ancora
+           Su me fissare le moribonde luci?
+           Conoscimi, Tancredi,
+           Il mio dolor conosci….. la tua sposa –
+           Dunque l’ultimo sguardo or su di me volgi?
+           M’odj ancor? – Rea mi credi? </p>
+   </sp>
+         <sp>
+       <speaker>Tanc.</speaker>
+       <p>(sollevandosi) Ah! -m’hai tradito-</p>
+     </sp>
+     <sp>
+       <speaker>Ame.</speaker>
+       <p>Io!...</p>
+     </sp>
+     <sp>
+       <speaker>Arg.</speaker>
+       <p>Sventurata figlia!</p>
+       <p>Essa t’amava,</p>
+       <p>E fu l’amarti il suo delitto. Ingiuste</p>
+       <p>Fur le leggi il senato….. a te fu scritto</p>
+       <p>Quel foglio, a te….</p>
+     </sp>
+     <sp>
+       <speaker>Tan.</speaker>
+       <p>M’ingannò! – Amenaide</p>
+       <p>Ed ami il tuo Tancredi?</p>
+     </sp>
+     <sp>
+       <speaker>Ame.</speaker>
+       <p>Io mille morti</p>
+       <p>Avrei mertate in non amarti; pensa</p>
+       <p>Se rea</p>
+     </sp>
+     <sp>
+       <speaker>Tan.</speaker>
+       <p>Tu m’ami? – A questi detti io sento</p>
+       <p>Che m’è grave il morir</p>
+     </sp>
+     <sp>
+       <speaker>Ame.</speaker>
+       <p>Dunque, gran Dio,</p>
+       <p>Così mia fe…..</p>
+     </sp>
+     <sp>
+       <speaker>Tan.</speaker>
+       <p>Quel pianto</p>
+       <p>Mi scende al cor… ma… oh dio… lasciarti io deggio.</p>
+       <p>Già la morte s’appressa… io già… la sento.</p>
+     </sp>
+     <sp>
+       <speaker>Argirio</speaker>
+       <p>, ascolta, ecco de’ voti miei…</p>
+       <p>Di mia fede l’oggetto… a quDi mia fede l’oggetto… a quella mano
+Or la mia destra insanguinata unisci;
+Di sposo… il nome io porterò alla tomba…
+E tu sarai mio padre? – A vendicare…
+La mia patria… la sposa…
+Vissi, … d’entrambe degno… amato io spiro
+Ora d’entrambe in seno…
+Ogni mio voto… è già… compito… appieno Ogni mio voto… è già… compito… appieno.
+Amenaide… serbami
+Tua fè… quel… cor ch’è mio,
+Ti lascio… ah! tu di vivere
+Giurami, … sposa… addio. </p>
+    </sp>
+    </body>
+ </text>
+</TEI>

@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc title="Macbeth" date="1847" location="Florence">
+      <titleStmt>
+        <title>SCENA ULTIMA</title>
+        <author>Unknown</author>
+      </titleStmt>
+      	<title>
+          <p>Scene Ultima</p>
+      	</title>
+      <sourceDesc>
+        <p>Source not specified</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <stage>
+        <sp who="#malcolm">
+          <speaker>Malcolm</speaker>
+          <p>
+            <l>Vittoria!... ove s’è fitto</l>
+            <l>L’usurpator?</l>
+          </p>
+        </sp>
+        <sp who="#macduff">
+          <speaker>Macduff</speaker>
+          <p>
+            <l>(accennando Mac.) Trafitto!</l>
+          </p>
+        </sp>
+        <sp who="#macbeth">
+          <speaker>Mac</speaker>
+          <p>
+            <l>(alzandosi a stento da terra) Mal per me che m’affidai</l>
+            <l>Ne’ presagi dell’inferno!...</l>
+            <l>Tutto il sangue ch’io versai</l>
+            <l>Grida in faccia dell’eterno!...</l>
+            <l>Sulla fronte… maledetta…</l>
+            <l>Sfolgorò… la sua vendetta!...</l>
+            <l>Muojo… al Cielo… al mondo in ira!...</l>
+            <l>Vil corona!... e sol per te! (muore)</l>
+          </p>
+        </sp>
+        <sp who="#macduff">
+          <speaker>Macduff</speaker>
+          <p>
+            <l>Scozia afflitta, ormai respira!</l>
+          </p>
+        </sp>
+        <sp>
+          <speaker>Tutti</speaker>
+          <p>
+            <l>Or Malcolmo è il nostro Re.</l>
+          </p>
+        </sp>
+      </stage>
+    </body>
+  </text>
+  <teiHeader>
+    <fileDesc title="Macbeth" date="1865" location="Paris">
+      <titleStmt>
+        <title>Scene Ultima</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Not published</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Source not specified</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <stage>
+        <sp who="#malcolm">
+          <speaker>MALCOLM</speaker>
+          <l>Vittoria !... ove s' è fitto</l>
+          <l>L' usurpator?</l>
+        </sp>
+        <sp who="#macduff">
+          <speaker>MACDUFF</speaker>
+          <l n="3">(accennando Mac.) Trafitto !</l>
+        </sp>
+        <sp who="#macbeth">
+          <speaker>MACBETH</speaker>
+          <l>(alzandosi a stento da terra)</l>
+          <l>Mal per me che m' affidai</l>
+          <l>Ne' presagi dell'inferno!...</l>
+          <l>Tutto il sangue ch' io versai</l>
+          <l>Grida in faccia dell'Eterno!...</l>
+          <l>Sulla fronte... maledetta</l>
+          <l>Sfolgorò... la sua vendetta!...</l>
+          <l>Muojo... al Cielo... al mondo in ira,</l>
+          <l>Vil corona!... e sol per te! (muore)</l>
+        </sp>
+        <sp who="#macduff">
+          <speaker>MACDUFF</speaker>
+          <l>Scozia afflitta, ormai respira !</l>
+        </sp>
+        <sp who="#all">
+          <speaker>Tutti</speaker>
+          <l>Or Malcolmo è il nostro Re</l>
+        </sp>
+      </stage>
+    </body>
+  </text>
+  <teiHeader>
+    <fileDesc title="Macbeth" date="1874" location="Paris">
+      <titleStmt>
+        <title>Scena Ultima</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Not published</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Source not specified</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <stage>
+        <sp who="#malcolm">
+          <speaker>Malcolm</speaker>
+
+          <l>Ove s'è fitto</l>
+          <l>L'usurpator?</l>
+
+        </sp>
+        <sp who="#mac">
+          <speaker>Mac</speaker>
+          <l>Colà da me trafitto.</l>
+        </sp>
+        <sp>
+
+          <speaker>Tutti</speaker>
+          <l>(piegando un ginocchio a terra)</l>
+          Salve, o Re!
+
+        </sp>
+        <sp>
+
+          <speaker>Bardi</speaker>
+          <l>(i Bardi s'avanzano e intuonano l'Inno)</l>
+          <l>Macbeth, Macbeth ov'è?...</l>
+          <l>Dov'è l'usurpator?</l>
+          <l>D'un soffio il fulminò</l>
+          <l>Il Dio della vittoria.</l>
+
+        </sp>
+        <sp>
+
+          <speaker>Bardi</speaker>
+          <l>(poi volti a Macduff)</l>
+          <l>L'eroe valente egli è</l>
+          <l>Che spense il traditor.</l>
+          <l>La patria, il Re salvò;</l>
+          <l>A lui onore e gloria!</l>
+
+        </sp>
+        <sp>
+
+          <speaker>Soldati</speaker>
+          <l>Ah si, l'eroe egli è</l>
+          <l>Che spense il traditor;</l>
+          <l>La patria e il Re salvò;</l>
+          <l>A lui onore e gloria!</l>
+
+        </sp>
+        <sp>
+
+          <speaker>Donne</speaker>
+          <l>Salgano grazie a te,</l>
+          <l>Gran Dio vendicator;</l>
+          <l>A chi ne liberò</l>
+          <l>Inni cantiam di gloria.</l>
+
+        </sp>
+
+	  <sp who="#malcolm">
+          <speaker>Malcolm</speaker>
+          <l>Confida, o Scozia, in me!</l>
+          <l>È spento l'oppressor;</l>
+          <l>La gioia eternerò</l>
+          <l>Tra noi di tal vittoria!</l>
+	</sp>
+
+	  <sp who = "#mac">
+	  <speaker>Mac.</speaker>
+	  <l>Ciascun si fidi al Re,</l>
+	  <l>Che il ciel ne rende ancor!</l>
+	  <l>L’aurora che spuntò</l>
+	  <l>Ne reca pace e gloria!</l>
+         </sp>
+      </stage>
+    </body>
+  </text>
+</TEI>

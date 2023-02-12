@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc title="La favorite" date="1840" location="Paris">
+      <titleStmt>
+        <title>Translation Jannetti from French La Favorita 1840</title>
+        <author>Gaetano Donizzetti</author>
+      </titleStmt>
+      <publicationStmt>
+      </publicationStmt>
+      <sourceDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <stage>
+        <sp who="#f">
+          <speaker>Fernando</speaker>
+          <l>Ah father, it's her!</l>
+          <l>My Leonora.</l>
+        </sp>
+        <sp who="#b">
+          <speaker>Baldassarre</speaker>
+          <l>(he bends down towards the corpse and recognizing her)</l>
+          <l>Oh, who do I see!</l>
+        </sp>
+        <sp who="#f">
+          <speaker>Fernando</speaker>
+          <l>Leonora!</l>
+        </sp>
+        <sp who="#b">
+          <speaker>Baldassarre</speaker>
+          <l>Silence, she is already extinguished.</l>
+          <l>(then he turns towards the others)</l>
+          <l>On the new pilgrim,</l>
+          <l>your prayers: he no longer lives.</l>
+        </sp>
+        <sp who="#f">
+          <speaker>Fernando</speaker>
+          <l>I too</l>
+          <l>will have your prayer tomorrow.</l>
+        </sp>
+        <sp>
+          <speaker>All</speaker>
+          <l>Oh God!</l>
+        </sp>
+      </stage>
+    </body>
+  </text>
+  <teiHeader>
+     <fileDesc title="La favorita o Leonora di Guzman" date="1842" location="Padova">
+        <titleStmt>
+           <title>La favorita/Leonora di Guzman 1842</title>
+   </titleStmt>
+     <author> Gaetano Donizzetti </author>
+        <publicationStmt>
+        </publicationStmt>
+        <sourceDesc>
+           <p>Scene VI from the play "La favorita/Leonora di Guzman 1842"</p>
+        </sourceDesc>
+     </fileDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <div type="scene">
+           <head>SCENA VI</head>
+           <p>
+              Leonora distesa in terra, Fernando, Baldassare che esce dal tempio seguito dai Montanari e Soldati
+           </p>
+           <sp>
+              <speaker>Fer.</speaker>
+              <l>(a Bal) Oh padre, è dessa!
+Mira Leonora!</l>
+           </sp>
+           <sp>
+              <speaker>Bal.</speaker>
+              <l>(avvicinandosi al cadavere)
+Oh chi vegg’io?</l>
+           </sp>
+           <sp>
+              <speaker>Fer.</speaker>
+              <l>Leonora!</l>
+           </sp>
+           <sp>
+              <speaker>Bal.</speaker>
+              <l>Silenzio, ella è già spenta (poi si volge
+Sul peregrin novello (agli altri.)</l>
+           </sp>
+           <sp>
+              <l>Le vostre preci, ei più non vive.</l>
+           </sp>
+           <sp>
+              <speaker>Fer.</speaker>
+              <l>Anch’io
+       Avrò diman la vostra prece.</l>
+           </sp>
+           <sp>
+              <l>Tutti
+Oh Dio!</l>
+           </sp>
+        </div>
+     </body>
+  </text>
+    <teiHeader>
+      <fileDesc title="Elda" date="1843" location="Milan">
+        <titleStmt>
+          <title>La favorita/Elda 1843</title>
+  		<author> Gaetano Donizetti </author>
+        </titleStmt>
+        <publicationStmt>
+          <p>2023-02-12</p>
+        </publicationStmt>
+        <sourceDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="act">
+          <div type="scene">
+            <head>SCENA ULTIMA.</head>
+            <sp who="#gil">
+              <speaker>GIL.</speaker>
+              <l>Venite : è lei… Everardo (ad. Eve)</l>
+            </sp>
+            <sp who="#eve">
+              <speaker>EVE.</speaker>
+              <l>Che veggo!</l>
+            </sp>
+            <sp who="#gil">
+              <speaker>GIL.</speaker>
+              <l>Elda…</l>
+            </sp>
+            <sp who="#eve">
+              <speaker>EVE.</speaker>
+              <l>Silenzio!...È spenta (coprendola della sua veste)
+                Un infelice uscìa di questa vita: (ai Tem.)
+                Per lui pregate, miei fratelli, Iddio! (tutti i
+                Templari s’inginocchiano)
+              </l>
+            </sp>
+            <sp who="#gil">
+              <speaker>GIL.</speaker>
+              <l>Spento sarò col nuovo giorno anch’io.</l>
+            </sp>
+            <stage>
+              <p>FINE</p>
+            </stage>
+          </div>
+        </div>
+      </body>
+    </text>
+    <teiHeader>
+      <fileDesc title="Daila" date="1860" location="Rome">
+        <titleStmt>
+          <title>La Favorita/Daila 1860</title>
+  		<author> Gaetano Donizzetti </author>
+        </titleStmt>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <sp>
+          <speaker>Zopiro</speaker>
+          <l>Compiuto è il mio destino; e mio malgrado</l>
+          <l>Un segreto terror nell’agitata</l>
+          <l>Mente mi scende…Ah mi da forza Allah!</l>
+          <stage>Dai. Oh ciel!... Che affano…Ohimè!.. io gelo… io gelo
+                                                       (tentando di alzarsi)</stage>
+          <l>Che ascolto !,.. Un infelice al suol prostrato</l>
+          <l>Deh ti rincora.</l>
+          <stage>Dai.                  Ah !. È desso !</stage>
+          <stage>Zop.                               Oh ciel! </stage>
+          <stage>Dai.                                         È desso!</stage>
+          <l>Deh non mi maledir… son io... son io ! </l>
+          <l>Ah va, t'invola, e questa terra</l>
+          <l>Più non calpesti il rio tuo piè; </l>
+          <l>Fa eh' io tranquillo scenda sotterra, </l>
+          <l>Non disperato al par di te. </l>
+          <l>Nel suo palagio sai chi t'attende... </l>
+          <l>D' oro e di gemme ti coprirà, </l>
+          <l>Al fianco suo sarai più bella </l>
+          <l>Tuo nome, infida ognor sarà.</l>
+        </sp>
+        <sp>
+          <speaker>Dail</speaker>
+          <l>Pregando, ohimè! diressi </l>
+          <l>A quest' ostello il piè ....</l>
+          <l>Quanto soffrir potessi, </l>
+          <l>Tutto soffrii per te..... </l>
+          <sp>
+            <speaker>Zopiro</speaker>
+            <l>O tu che m' ingannasti , </l>
+            <l>       Che pretendi da me ?.</l>
+          </sp>
+          <sp>
+            <speaker>Dail</speaker>
+            <l>La pena or cadè</l>
+            <l>D' un error su d' entrambi. lo mi credea </l>
+            <l>Ch' Ida il vero per me svelato avesse... </l>
+  		  <l>Sperai nell' innocenza... Ah ! mi credete...</l>
+        </sp>
+        <sp>
+          <speaker>Zopiro</speaker>
+          <l>(Zopiro vorrebbe fuggire, ma dessa l'arresta)</l>
+        </sp>
+        <sp>
+          <speaker>Dail</speaker>
+          <l>Al cospetto di morte</l>
+          <l>Mentire non si può... Ma il mio messaggio </l>
+          <l>A voi non giunse... io sono I</l>
+          <l>nfelice... morente,.. Oh! il tuo perdono!.</l>
+        </sp>
+        <sp>
+          <speaker>Zopiro</speaker>
+          <l>Zopiro... Ohimè !...</l>
+        </sp>
+        <sp>
+          <speaker>Dail</speaker>
+          <l>La norma, ah ! segui </l>
+          <l>D' Allah , che a sé </l>
+          <l>Ti domandò.</l>
+          <l>Se il mio dolor </l>
+          <l>Tu non dilegui </l>
+          <l>fidanza in cor </l>
+          <l>Più non avrò. </l>
+          <l>Ah ! per celar </l>
+          <l>L' affanno mio </l>
+          <l>L' immènso mar </l>
+          <l>Ne un' porto avrà. </l>
+          <l>Se a morte in sen </l>
+          <l>Piombar dégg' io </l>
+          <l>Ch' io provi almen </l>
+          <l>La tua pietà.</l>
+        </sp>
+        <sp>
+          <speaker>Zopiro</speaker>
+          <l>(À quell' affanno, a queir accento</l>
+          <l>Sento, oh ciel ! stemprarsi il cor. </l>
+          <l>A quel sospir io mi rammento </l>
+          <l>Le speranze dell' amor.) </l>
+  		 <speaker>Daila</speaker>
+          <l>Daila Le braccia, ahi grama, io ti protendo,'</l>
+          <l>Vedi che smania accolgo in me...</l>
+          <l>Deh, nella notte in che discendo</l>
+          <l>Non discacciarmi lontan da te..</l>
+        </sp>
+        <sp>
+          <speaker>Zop.</speaker>
+          <l>Addio, - fuggir mi lascia</l>
+          <l>Dai. Ló sdegno tuo disarma;</l>
+          <l>In si crudele ambascia</l>
+          <l>Non mi lasciar morir.</l>
+          <l>Pel mio dólor sì amaro,</l>
+          <l>Pel mio morir... ohimè !</l>
+          <l>Per quel che hai di più caro,</l>
+          <l>Non mi negar mercè....</l>
+          <l>Pietade !... io te la chieda</l>
+          <l>Pel nostro antico amor.</l>
+        </sp>
+        <sp>
+          <speaker>Zop.</speaker>
+          <l>(Giusto cielo, il mio furore</l>
+          <l>      Come foglia inaridì ! )</l>
+        </sp>
+        <sp>
+          <speaker>Dai.</speaker>
+          <l>Ah pietate il cor ti muova,</l>
+          <l>     Già vicina io sono a morte...</l>
+          <l>      Ah ! Zopiro... mio Zopiro !..</l>
+        </sp>
+        <sp>
+          <speaker>Zop.</speaker>
+          <l>Ciel !...</l>
+        </sp>
+        <sp>
+          <speaker>Dai.</speaker>
+          <l>    Di me... di nae pietà.</l>
+        </sp>
+        <sp>
+          <speaker>Zop.</speaker>
+          <l>Daila !</l>
+        </sp>
+        <sp>
+          <speaker>Dai.</speaker>
+          <l>    Grazia...</l>
+        </sp>
+  	   <speaker>Zop.</speaker>
+          <p>Allah perdona...</p>
+        </sp>
+        <sp>
+          <speaker>Dai.</speaker>
+          <p>E tu ?</p>
+        </sp>
+        <sp>
+          <speaker>Zop.</speaker>
+          <p>Io t'amo... Perdonami Allah.</p>
+          <p>Ah ! t'arrendi all'amor, alla gioia, alla speranza... già m'è reso il tuo cor. Vieni: fuggiamo insieme: una voce che scende dal ciel va gridando al mio cor. Vieni, su noi veglia il nume che protegge l'amor.</p>
+        </sp>
+        <sp>
+          <speaker>Dai.</speaker>
+          <p>E fia vero.... Io m'abbandono alla gioja che m'inebria; che m'infiamma, che m'ispira... Pago appieno è il mio desir. Ma risponder non sa l'anima a tua voce, al tuo pensiero... Deh, nascondi al mondo intero la mia vita, il mio morir.</p>
+        </sp>
+        <sp>
+          <speaker>Zop.</speaker>
+          <p>Fuggiamo, fuggiamo insieme.</p>
+        </sp>
+        <sp>
+          <speaker>Dai.</speaker>
+          <p>Ah taci... E vana speme!.</p>
+        </sp>
+        <sp>
+          <speaker>Coro (interno)</speaker>
+          <p>Allah Allah, il giuro tuo, secondi e dia mercede a un Mussulman fedele.</p>
+        </sp>
+        <sp>
+          <speaker>Dai.</speaker>
+          <p>Queste preci odi tu ?</p>
+        </sp>
+        <sp>
+          <speaker>Zop.</speaker>
+          <p>Fuggiamo.</p>
+        </sp>
+        <sp>
+          <speaker>Dai.</speaker>
+          <p>Allah, Allah è che ti chiama. In te riposto mio fato è sol... ah! vieni.</p>
+        </sp>
+  	  <sp>
+  	     <speaker>Dail.</speaker> <p>Ah !.. il favore d' <name>Allah</name> te vuol sottratto
+        Dall'abisso fatai... Addìo., ti lascio (mancando)
+        E in te trionfi Allah, o mio Zopiro.
+        mio destino seguirò, ma il cielo
+        Già al cor mi parla, e ornai mancar mi sento.</p>
+  	  </sp>
+  	  <sp>
+          <speaker>Zop</speaker> <p>Andiam.</p>
+  		</sp>
+        <sp>
+        <speaker>Dai. </speaker>   <p> Ohimè, <name>Zopiro</name>.,. Ah !.. noi poss'io !..</p>
+  	  </sp>
+  	  <sp>
+          <speaker> Zop</speaker>. <p>Fa cor, Daila, fa cor...</p>
+  	  </sp>
+  	  <sp>
+        <speaker>Dai.</speaker> <p>Ha la mia vita
+               Termine col soffrir ! </p>
+  	  </sp>
+  	  <sp>
+  	   <speaker>Zop</speaker>.    <p> Oh cielo ! </p>
+  	   </sp>
+  	  <sp>
+          <speaker>Dai.</speaker>     <p>  Io muojo....
+         E perdonata !.. Alla mia tomba un giorno,
+         Zopiro, oh pensier mio,
+         Verrai dolente a dar pietoso addio. </p>
+  	   </sp>
+  	   <sp>
+          <speaker>Zop</speaker>. <p>Daila.... </p>
+  	   </sp>
+  		<sp>
+            <speaker>Dai.</speaker> <p>   Ah ! (<ex>spira</ex>)</p>
+  		</sp>
+  		<sp>
+  		  <speaker>Zop</speaker>.  <p>Daila !... Oh Ciel !.</p>
+  		</sp>
+      <p><stage>FINE.</stage></p>
+      </body>
+  </text>
+</TEI>
