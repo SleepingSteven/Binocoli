@@ -248,7 +248,7 @@ text-shadow: 1px 1px white;
       function getData(){
   // load the xml file
         myXMLHTTPRequest = new XMLHttpRequest(); myXMLHTTPRequest.onreadystatechange = showData;
-        myXMLHTTPRequest.open("GET", "https://d1639b39ac1a4b.lhr.life/blazegraph/sparql?query="+encodeURIComponent("select * where { ?s ?p ?o } limit 1 "), true);
+        myXMLHTTPRequest.open("GET", "https://3f9cf26834c1b7.lhr.life/blazegraph/sparql?query="+encodeURIComponent("select * where { ?s ?p ?o } limit 1 "), true);
         //myXMLHTTPRequest.setRequestHeader("query=SELECT * { ?s ?p ?o } LIMIT 1")
         
         myXMLHTTPRequest.send(null); }
@@ -256,7 +256,7 @@ text-shadow: 1px 1px white;
         if (myXMLHTTPRequest.readyState == 4) {
         if (myXMLHTTPRequest.status == 200) { //reads the response
         xmlDoc = myXMLHTTPRequest.responseXML; // locates the fragment
-        alert(xmlDoc)
+        alert(xmlDoc.querySelector("binding[name='s']").getElementsByTagName("uri")[0].innerHTML)
         } }
         }
     </script>
