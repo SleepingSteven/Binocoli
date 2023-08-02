@@ -248,7 +248,7 @@ text-shadow: 1px 1px white;
       function getData(){
   // load the xml file
         myXMLHTTPRequest = new XMLHttpRequest(); myXMLHTTPRequest.onreadystatechange = showData;
-        myXMLHTTPRequest.open("GET", "http://localhost:8080/blazegraph/sparql?query=select%20*%20where%20{%20?s%20?p%20?o%20}%20limit%201", true);
+        myXMLHTTPRequest.open("GET", "http://localhost:8080/bigdata", true);
         myXMLHTTPRequest.send(null); }
         function showData() {
         if (myXMLHTTPRequest.readyState == 4) {
