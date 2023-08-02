@@ -239,11 +239,25 @@ text-shadow: 1px 1px white;
         <input class="w3-input w3-section w3-border" type="text" placeholder="Author" required name="Email">
         <input class="w3-input w3-section w3-border" type="text" placeholder="Location" required name="Subject">
         <input class="w3-input w3-section w3-border" type="text" placeholder="Keyword" required name="Comment">
-        <button class="w3-button w3-black w3-section" type="submit">
+        <button class="w3-button w3-black w3-section" type="submit" onClick="getData()">
           <i class="fa fa-paper-plane"></i> SEARCH
         </button>
       </form>
     </div>
+    <script>
+      function getData(){
+  // load the xml file
+        myXMLHTTPRequest = new XMLHttpRequest(); myXMLHTTPRequest.onreadystatechange = showData;
+        myXMLHTTPRequest.open("GET", "http://localhost:8080/blazegraph/sparql?query=select%20*%20where%20{%20?s%20?p%20?o%20}%20limit%201", true);
+        myXMLHTTPRequest.send(null); }
+        function showData() {
+        if (myXMLHTTPRequest.readyState == 4) {
+        if (myXMLHTTPRequest.status == 200) { //reads the response
+        xmlDoc = myXMLHTTPRequest.responseXML; // locates the fragment
+        alert(xmlDoc)
+        } }
+        }
+    </script>
     <br><br><br><br><br>
     <div><p align="right"><iframe style="align: center" width="70%" height="500" src="https://www.youtube.com/embed/lSJhQ5zYzwo?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p></div>
   </div>
