@@ -234,8 +234,8 @@ text-shadow: 1px 1px white;
     <div class="w3-container w3-padding-32" id="contact" style="width:30%; float:left">
       <h1 align="center" class="w3-border-bottom w3-border-light-grey w3-padding-16">Corago</h1>
       <p>Search your interest</p>
-      <form action="/action_page.php" target="_blank">
-        <input class="w3-input w3-border" type="text" placeholder="Opera" required name="Name">
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Opera" required name="Name" id="name">
         <input class="w3-input w3-section w3-border" type="text" placeholder="Author" required name="Email">
         <input class="w3-input w3-section w3-border" type="text" placeholder="Location" required name="Subject">
         <input class="w3-input w3-section w3-border" type="text" placeholder="Keyword" required name="Comment">
@@ -248,7 +248,7 @@ text-shadow: 1px 1px white;
       function getData(){
   // load the xml file
         myXMLHTTPRequest = new XMLHttpRequest(); myXMLHTTPRequest.onreadystatechange = showData;
-        myXMLHTTPRequest.open("GET", "https://3f9cf26834c1b7.lhr.life/blazegraph/sparql?query="+encodeURIComponent("select * where { ?s ?p ?o } limit 1 "), true);
+        myXMLHTTPRequest.open("GET", "https://72e59975c555be.lhr.life/blazegraph/sparql?query="+encodeURIComponent("select * where { "+document.getElementById("name").value+" ?p ?o } limit 1 "), true);
         //myXMLHTTPRequest.setRequestHeader("query=SELECT * { ?s ?p ?o } LIMIT 1")
         
         myXMLHTTPRequest.send(null); }
@@ -256,7 +256,13 @@ text-shadow: 1px 1px white;
         if (myXMLHTTPRequest.readyState == 4) {
         if (myXMLHTTPRequest.status == 200) { //reads the response
         xmlDoc = myXMLHTTPRequest.responseXML; // locates the fragment
-        alert(xmlDoc.querySelector("binding[name='s']").getElementsByTagName("uri")[0].innerHTML)
+        risultato=xmlDoc.querySelector("binding[name='o']");
+        
+        if (risultato.innerHTML.includes("<literal")) {
+          alert(xmlDoc.querySelector("binding[name='o']").getElementsByTagName("literal")[0].innerHTML)
+        } else {
+          alert(xmlDoc.querySelector("binding[name='o']").getElementsByTagName("uri")[0].innerHTML)
+        }
         } }
         }
     </script>
