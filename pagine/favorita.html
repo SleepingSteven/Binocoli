@@ -193,29 +193,30 @@
         <div class="col-4">
           <a class="w3-bar-item w3-button"><b>Confront and examine editions</b></a>
           <!-- <img src="image/legenda.png" style="width:100%"> -->
-          <div class="p-2 border bg-light">
-           <ul class="nav nav-tabs" id="myTab" role="tablist">
-             <li class="nav-item" role="presentation">
-               <button class="nav-link active" id="tab31-tab" data-bs-toggle="tab" data-bs-target="#tab31" type="button" role="tab" aria-controls="home" aria-selected="true">Version 1</button>
-             </li>
-             <li class="nav-item" role="presentation">
-               <button class="nav-link" id="tab32-tab" data-bs-toggle="tab" data-bs-target="#tab32" type="button" role="tab" aria-controls="profile" aria-selected="false">Version 2</button>
-             </li>
-             <li class="nav-item" role="presentation">
-               <button class="nav-link" id="tab33-tab" data-bs-toggle="tab" data-bs-target="#tab33" type="button" role="tab" aria-controls="contact" aria-selected="false">Version 3</button>
-             </li>
-           </ul>
-           <div class="tab-content" id="myTabContent">
-             <div class="tab-pane fade show active" id="tab31" role="tabpanel" aria-labelledby="tab1-tab">
-               <iframe src="frankensteinfavorita1.html" width="100%" height="350" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-             </div>
-             <div class="tab-pane fade" id="tab32" role="tabpanel" aria-labelledby="tab2-tab">
-               <iframe src="frankensteinfavorita2.html" width="100%" height="350" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-             </div>
-             <div class="tab-pane fade" id="tab33" role="tabpanel" aria-labelledby="tab3-tab">
-               <iframe src="frankensteinfavorita3.html" width="100%" height="350" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe>
-             </div>
-           </div>
+          <div class="container px-4 bg-light">
+            <h2>XPath options</h2>
+          
+          <label for="xmlFiles">XML document:</label>
+          <select id="xmlFiles">
+            <option value="favorita_1840_parigi.xml">La Favorita 1840, Paris</option>
+            <option value="favorita_1842_padova.xml">La Favorita 1842, Padua</option>
+            <option value="favorita_1843_milano.xml">La Favorita 1843, Milan</option>
+            <option value="favorita_1860_roma.xml">La Favorita 1860, Rome</option>
+            <!-- Aggiungi opzioni per altri documenti XML, se necessario -->
+          </select>
+          
+          <label for="options">XPath options:</label>
+          <select id="options">
+            <option value="speaker">Characters</option>
+            <option value="l">Lines</option>
+            <option value="stage">Stages</option>
+          </select>
+          
+          <button onclick="searchXPath()">Search</button>
+        
+          <div id="results">
+            <!-- Qui verranno visualizzati i risultati -->
+          </div>
           </div>
 
          </div>
@@ -265,32 +266,6 @@
       </div>
     </div>
   </div>
-  <div class="container px-4 bg-light">
-    <h1>XPath options</h1>
-  
-  <label for="xmlFiles">XML document:</label>
-  <select id="xmlFiles">
-    <option value="favorita_1840_parigi.xml">La Favorita 1840, Paris</option>
-    <option value="favorita_1842_padova.xml">La Favorita 1842, Padua</option>
-    <option value="favorita_1843_milano.xml">La Favorita 1843, Milan</option>
-    <option value="favorita_1860_roma.xml">La Favorita 1860, Rome</option>
-    <!-- Aggiungi opzioni per altri documenti XML, se necessario -->
-  </select>
-  
-  <label for="options">XPath options:</label>
-  <select id="options">
-    <option value="speaker">Characters</option>
-    <option value="l">Lines</option>
-    <option value="stage">Stages</option>
-  </select>
-  
-  <button onclick="searchXPath()">Search</button>
-
-  <div id="results">
-    <!-- Qui verranno visualizzati i risultati -->
-  </div>
-  </div>
-
 </div>
 </div>
 </div>
