@@ -265,6 +265,32 @@
       </div>
     </div>
   </div>
+  <div class="container px-4 bg-light">
+    <h1>XPath options</h1>
+  
+  <label for="xmlFiles">XML document:</label>
+  <select id="xmlFiles">
+    <option value="favorita_1840_parigi.xml">La Favorita 1840, Paris</option>
+    <option value="favorita_1842_padova.xml">La Favorita 1842, Padua</option>
+    <option value="favorita_1843_milano.xml">La Favorita 1843, Milan</option>
+    <option value="favorita_1860_roma.xml">La Favorita 1860, Rome</option>
+    <!-- Aggiungi opzioni per altri documenti XML, se necessario -->
+  </select>
+  
+  <label for="options">XPath options:</label>
+  <select id="options">
+    <option value="speaker">Characters</option>
+    <option value="l">Lines</option>
+    <option value="stage">Stages</option>
+  </select>
+  
+  <button onclick="searchXPath()">Search</button>
+
+  <div id="results">
+    <!-- Qui verranno visualizzati i risultati -->
+  </div>
+  </div>
+
 </div>
 </div>
 </div>
@@ -273,6 +299,43 @@
     var someTabTriggerEl = document.querySelector(tab);
     var tab = new bootstrap.Tab(someTabTriggerEl);
     tab.show();
+  }
+</script>
+<script>
+  const teiNamespace = "http://www.tei-c.org/ns/1.0";
+  function searchXPath() {
+    const selectedOption = document.getElementById("options").value;
+    const selectedXMLFile = document.getElementById("xmlFiles").value; // Ottieni il documento XML selezionato
+
+    // Leggi il contenuto del file XML selezionato
+    fetch(selectedXMLFile)
+      .then(response => response.text())
+      .then(xmlString => {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+
+        // Esegui una query XPath con l'opzione selezionata
+        const xpathResult = xmlDoc.evaluate(`//*[local-name()='${selectedOption}' and namespace-uri()='${teiNamespace}']`, xmlDoc, null, XPathResult.ANY_TYPE, null);
+        let result = "";
+
+        // Itera attraverso i risultati della query XPath
+        let node = xpathResult.iterateNext();
+        while (node) {
+          result += node.textContent + "<br>";
+          node = xpathResult.iterateNext();
+        }
+
+        // Visualizza i risultati nell'area specificata
+        const results = document.getElementById("results");
+        if (result.length === 0) {
+          results.innerHTML = "Nessun risultato trovato.";
+        } else {
+          results.innerHTML = result;
+        }
+      })
+      .catch(error => {
+        console.error("Errore nel caricamento del file XML: ", error);
+      });
   }
 </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
