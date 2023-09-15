@@ -315,14 +315,30 @@
         const xmlDoc = parser.parseFromString(xmlString, "text/xml");
 
         // Esegui una query XPath con l'opzione selezionata
-        const xpathResult = xmlDoc.evaluate(`//*[local-name()='${selectedOption}' and namespace-uri()='${teiNamespace}']`, xmlDoc, null, XPathResult.ANY_TYPE, null);
-        let result = "";
-
+        const xpathResult = xmlDoc.evaluate(`//*[local-name()='${selectedOption}' and namespace-uri()='${teiNamespace}']`, xmlDoc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+        
+        // Inizializza un oggetto per il conteggio dei risultati
+        const resultCount = {};
+        
         // Itera attraverso i risultati della query XPath
-        let node = xpathResult.iterateNext();
-        while (node) {
-          result += node.textContent + "<br>";
-          node = xpathResult.iterateNext();
+        for (let i = 0; i < xpathResult.snapshotLength; i++) {
+          const node = xpathResult.snapshotItem(i);
+          const textContent = node.textContent;
+          
+          // Aggiungi o incrementa il conteggio per il testo trovato
+          if (resultCount[textContent]) {
+            resultCount[textContent]++;
+          } else {
+            resultCount[textContent] = 1;
+          }
+        }
+        
+        // Costruisci una stringa con i risultati conteggiati
+        let result = "";
+        for (const text in resultCount) {
+          if (resultCount.hasOwnProperty(text)) {
+            result += `${text} x${resultCount[text]}<br>`;
+          }
         }
 
         // Visualizza i risultati nell'area specificata
