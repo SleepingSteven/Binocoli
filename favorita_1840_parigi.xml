@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "stylesheet_favorita_1840_parigi.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>La Favorite - Traduzione di Jannetti</title>
+        <respStmt>
+          <name>A.Royer, G. Vaëz and E. Scribe</name>
+          <resp>Authors</resp>
+        </respStmt>
+        <respStmt>
+          <name>Jannetti</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Paris</publisher>
+        <date>1840</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <!-- No repository information -->
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <title>Libretto of "La Favorite"</title>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>SCENA SETTIMA ED ULTIMA</head>
+		<stage> Fernando che esce dal coro, e Baldassarre</stage>
+        <sp>
+          <speaker>FERNANDO</speaker>
+          <l>
+            Ah padre, è dessa! <caesura/> Mia Leonora.
+          </l>
+        </sp>
+        <sp>
+          <speaker>BALDASSARE</speaker>
+          <stage>(si abbassa verso il cadavere e riconoscendola)</stage>
+          <l>
+            Oh, chi vegg'io!
+          </l>
+        </sp>
+        <sp>
+          <speaker>FERNANDO</speaker>
+          <l>
+            Leonora!
+          </l>
+        </sp>
+        <sp>
+          <speaker>BALDASSARE</speaker>
+          <l>
+            Silenzio, ella è già spenta.
+          </l>
+          <stage>(poi si volge verso gli altri)</stage>
+          <l>
+            Sul peregrin novello, le vostre preci: ei più non vive.
+          </l>
+        </sp>
+        <sp>
+          <speaker>FERNANDO</speaker>
+          <l>
+            Anch'io avrò diman la vostra prece.
+          </l>
+        </sp>
+        <sp>
+          <speaker>TUTTI</speaker>
+          <l>
+            Oh Dio!
+          </l>
+        </sp>
+      </div>
+    </body>
+  </text>
+<facsimile>
+    <graphic url="https://example.org/iiif/Gell_taccuino_6_pag_022-023_FotoCiol©/full/!400,400/0/default.jpg" xml:id="page_022-023"/>
+  </facsimile>
+</TEI>

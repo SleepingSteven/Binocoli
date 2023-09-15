@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "stylesheet_favorita_1840_parigi.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+
+<teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Elda</title>
+        <respStmt>
+          <name>A.Royer, G. Vaëz and E. Scribe</name>
+          <resp>Authors</resp>
+        </respStmt>
+        <respStmt>
+          <name>Bassi, Calisto</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Milano</publisher>
+        <date>1843</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <!-- No repository information -->
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <title>Libretto of "Elda"</title>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+  <body>
+    <div>
+    <head>SCENA ULTIMA.</head>
+    <sp>
+        <speaker>GIL.</speaker>
+        <l>
+         Venite : è lei… Everardo <stage>(ad. Eve)</stage>
+        </l>
+    </sp>
+    <sp>
+        <speaker>EVE.</speaker>
+        <l>
+         Che veggo!
+        </l>
+    </sp>
+    <sp>
+        <speaker>GIL.</speaker>
+        <l>
+         Elda…
+        </l>
+    </sp>
+    <sp>
+        <speaker>EVE.</speaker>
+        <l>
+         Silenzio!...È spenta <stage>(coprendola della sua veste)</stage> Un infelice uscìa di questa vita: <stage>(ai Tem.)</stage> Per lui pregate, miei fratelli, Iddio! <stage>(tutti i Templari s’inginocchiano)</stage>
+        </l>
+    </sp>
+    <sp>
+        <speaker>GIL.</speaker>
+        <l>
+         Spento sarò col nuovo giorno anch’io.
+        </l>
+    </sp>
+    <stage>
+    <l>FINE</l>
+    </stage>
+    </div>
+    </body>
+    </text>
+<facsimile>
+    <graphic url="https://example.org/iiif/Gell_taccuino_6_pag_022-023_FotoCiol©/full/!400,400/0/default.jpg" xml:id="page_022-023"/>
+  </facsimile>
+</TEI>

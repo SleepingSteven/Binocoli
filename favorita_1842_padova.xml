@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "stylesheet_favorita_1840_parigi.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+        <titleStmt>
+            <title>La favorita/Leonora di Guzman 1842</title>
+            <respStmt>
+            <name>A.Royer, G. Vaëz and E. Scribe</name>
+            <resp>Authors</resp>
+            </respStmt>
+            <respStmt>
+            <name>Jannetti</name>
+            <resp>Translator</resp>
+            </respStmt>
+        </titleStmt>
+        <publicationStmt>
+            <publisher>Padova</publisher>
+            <date>1842</date>
+        </publicationStmt>
+        <sourceDesc>
+            <msDesc>
+            <msIdentifier>
+                <!-- No repository information -->
+            </msIdentifier>
+            <msContents>
+                <msItem>
+                <title>Libretto of "Leonora di Guzman"</title>
+                </msItem>
+            </msContents>
+            </msDesc>
+        </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+     <text>
+        <body>
+        <div>
+        <head>SCENA VI</head>
+        <stage> Leonora distesa in terra, Fernando, Baldassare che esce dal tempio seguito dai Montanari e Soldati </stage>
+        <sp>
+            <speaker>Fer.</speaker>
+        <l>
+        <stage>(a Bal)</stage> Oh padre, è dessa! Mira Leonora!
+        </l>
+        </sp>
+        <sp>
+            <speaker>Bal.</speaker>
+            <l><stage>(avvicinandosi al cadavere)</stage>
+             Oh chi vegg’io?
+            </l>
+        </sp>
+        <sp>
+            <speaker>Fer.</speaker>
+            <l>
+             Leonora!
+            </l>
+        </sp>
+        <sp>
+            <speaker>Bal.</speaker>
+            <l>
+             Silenzio, ella è già spenta <stage>(poi si volge Sul peregrin novello agli altri.)</stage>
+            </l>
+        </sp>
+        <sp>
+            <l>
+             Le vostre preci, ei più non vive.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Fer.</speaker>
+            <l>
+             Anch’io Avrò diman la vostra prece.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Tutti</speaker>
+            <l>
+             Oh Dio!
+            </l>
+        </sp>
+      </div>
+      </body>
+    </text>
+    <facsimile>
+    <graphic url="https://example.org/iiif/Gell_taccuino_6_pag_022-023_FotoCiol©/full/!400,400/0/default.jpg" xml:id="page_022-023"/>
+  </facsimile>
+</TEI>

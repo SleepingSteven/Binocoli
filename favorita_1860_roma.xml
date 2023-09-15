@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type = "text/xsl" href = "stylesheet_favorita_1840_parigi.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Daila</title>
+        <respStmt>
+          <name>A.Royer, G. Vaëz and E. Scribe</name>
+          <resp>Authors</resp>
+        </respStmt>
+        <respStmt>
+          <name>Cencetti</name>
+          <resp>Translator</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Roma</publisher>
+        <date>1860</date>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <!-- No repository information -->
+          </msIdentifier>
+          <msContents>
+            <msItem>
+              <title>Libretto of "Daila"</title>
+            </msItem>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+        <div>
+        <sp>
+            <speaker>Zopiro</speaker>
+            <l>
+             Compiuto è il mio destino; e mio malgrado
+            </l>
+            <l>
+             Un segreto terror nell’agitata
+            </l>
+            <l>
+             Mente mi scende…Ah mi da forza Allah!
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             Oh ciel!... Che affano…Ohimè!.. io
+            </l>
+            <l>
+             gelo… io gelo <stage>(tentando di alzarsi)</stage>
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop.</speaker>
+            <l>
+             Che ascolto !,.. Un infelice al suol
+            </l>
+            <l>
+             prostrato
+            </l>
+            <l>
+             Deh ti rincora.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             Ah !. È desso !
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop.</speaker> 
+            <l>
+             Oh ciel!
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker> 
+            <l>
+             È desso!
+            </l>
+            <l>
+             Deh non mi maledir… son io... son io !
+            </l>
+            <l> 
+             Ah va, t'invola, e questa terra
+            </l>
+            <l>
+             Più non calpesti il rio tuo piè;
+            </l>
+            <l>
+             Fa eh' io tranquillo scenda sotterra,
+            </l>
+            <l>
+             Non disperato al par di te.
+            </l>
+            <l>
+             Nel suo palagio sai chi t'attende...
+            </l>
+            <l>
+             D' oro e di gemme ti coprirà,
+            </l>
+            <l>
+             Al fianco suo sarai più bella
+            </l>
+            <l>
+             Tuo nome, infida ognor sarà.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dail</speaker>
+            <l>
+             Pregando, ohimè! diressi
+            </l>
+            <l>
+             A quest' ostello il piè ....
+            </l>
+            <l>
+             Quanto soffrir potessi, 
+            </l>
+            <l>
+             Tutto soffrii per te.....
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zopiro</speaker>
+            <l>
+             O tu che m' ingannasti ,
+            </l>
+            <l>
+             Che pretendi da me ?.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dail</speaker>
+            <l>
+             La pena or cadè
+            </l>
+            <l>
+             D' un error su d' entrambi. lo mi credea
+            </l>
+            <l>
+             Ch' Ida il vero per me svelato avesse...
+            </l>
+            <l>
+             Sperai nell' innocenza... Ah ! mi credete...
+            </l>
+        </sp>
+        <stage>(Zopiro vorrebbe fuggire, ma dessa l'arresta)</stage>
+        <sp>
+            <speaker>Dail</speaker>
+            <l>
+             Al cospetto di morte
+            </l>
+            <l>
+             Mentire non si può... Ma il mio messaggio
+            </l>
+            <l>
+             A voi non giunse... io sono I
+            </l>
+            <l>
+             nfelice... morente,.. Oh! il tuo perdono!.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zopiro</speaker>
+            <l>
+             Zopiro... Ohimè !...
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dail</speaker>
+            <l>
+             La norma, ah ! segui 
+            </l>
+            <l>
+             D' Allah , che a sé 
+            </l>
+            <l>
+             Ti domandò.
+            </l>
+            <l>
+             Se il mio dolor
+            </l>
+            <l>
+             Tu non dilegui
+            </l>
+            <l>
+             fidanza in cor
+            </l>
+            <l>
+             Più non avrò.
+            </l>
+            <l>
+             Ah ! per celar
+            </l>
+            <l>
+             L' affanno mio
+            </l>
+            <l>
+             L' immènso mar
+            </l>
+            <l>
+             Ne un' porto avrà.
+            </l>
+            <l>
+             Se a morte in sen 
+            </l>
+            <l>
+             Piombar dégg' io
+            </l>
+            <l>
+             Ch' io provi almen
+            </l>
+            <l>
+             La tua pietà.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zopiro</speaker>
+            <stage>(À quell' affanno, a queir accento</stage>
+            <l>
+             Sento, oh ciel ! stemprarsi il cor.
+            </l>
+            <l>
+             A quel sospir io mi rammento
+            </l>
+            <stage>Le speranze dell' amor.) </stage>
+        </sp>
+        <sp>
+            <speaker>Daila</speaker>
+            <l>
+              Daila Le braccia, ahi grama, io ti protendo,'
+            </l>
+            <l>
+              Vedi che smania accolgo in me...
+            </l>
+            <l>
+             Deh, nella notte in che discendo
+            </l>
+            <l>
+             Non discacciarmi lontan da te..
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop.</speaker>
+            <l>
+             Addio, - fuggir mi lascia
+            </l>
+            <l>
+             Dai. Ló sdegno tuo disarma;
+            </l>
+            <l>
+             In si crudele ambascia
+            </l>
+            <l>
+             Non mi lasciar morir.
+            </l>
+            <l>
+             Pel mio dólor sì amaro,
+            </l>
+            <l>
+             Pel mio morir... ohimè !
+            </l>
+            <l>
+             Per quel che hai di più caro,
+            </l>
+            <l>
+             Non mi negar mercè....
+            </l>
+            <l>
+             Pietade !... io te la chieda
+            </l>
+            <l>
+             Pel nostro antico amor.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop.</speaker>
+            <stage>(Giusto cielo, il mio furore
+            Come foglia inaridì ! )</stage>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             Ah pietate il cor ti muova,
+            </l>
+            <l>
+             Già vicina io sono a morte...
+            </l>
+            <l>
+             Ah ! Zopiro... mio Zopiro !..
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop.</speaker>
+            <l>
+             Ciel !...
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             Di me... di nae pietà.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop.</speaker>
+            <l>
+             Daila !
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             Grazia...
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop.</speaker>
+            <l>
+             Allah perdona...
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             E tu ?
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop.</speaker>
+            <l>
+             Io t'amo... Perdonami Allah.
+            </l>
+            <l>
+             Ah ! t'arrendi all'amor,
+            </l>
+            <l>
+             alla gioia, alla speme...
+            </l>
+            <l>
+             già m'è reso il tuo cor.
+            </l>
+            <l> 
+            Vieni: fuggiamo insieme:
+            </l>
+            <l> 
+             una voce che scende dal ciel
+            </l>
+            <l> 
+             va gridando al mio cor.
+            </l>
+            <l>
+             Vieni, su noi veglia il nume
+            </l> 
+            <l>
+             che protegge l'amor.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             E fia vero.... Io m'abbandono 
+            </l>
+            <l>
+             alla gioja che m'inebria;
+            </l>
+            <l>
+              che m'infiamma, che m'ispira... 
+            </l>
+            <l> 
+              Pago appieno è il mio desir.
+            </l>
+            <l> 
+               Ma risponder non sa l'alma
+            </l>
+            <l>
+                a tua voce, al tuo pensiero...
+            </l>
+            <l>  
+                 Deh, nascondi al mondo intero 
+            </l>
+            <l>
+                 la mia vita, il mio morir.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop.</speaker>
+            <l>
+             Fuggiamo, fuggiamo insieme.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             Ah taci... E vana speme!.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Coro (interno)</speaker>
+            <l>
+             Allah Allah, il giuro tuo, secondi
+            </l>
+            <l>
+             e dia mercede a un Mussulman 
+            </l>
+            <l> 
+             fedel.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             Queste preci odi tu ?
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop.</speaker>
+            <l>
+             Fuggiamo.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             Allah,
+            </l>
+            <l>
+             Allah è che ti chiama.
+            </l>
+            <l>
+             In te riposto
+            </l>
+            <l>
+             mio fato è sol... ah! vieni.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             È questo il tuo desir ?
+            </l>
+            <l>
+             Vieni. Or più forte
+            </l>
+            <l>
+             E l'amor. Vieni, ch io per possederti
+            </l>
+            <l>
+             Or tutto affronterò
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dail.</speaker>
+            <l>
+             Ah !.. il favore d'Allah
+            </l>
+            <l>
+            te vuol sottratto Dall'abisso fatai... Addìo., ti lascio 
+            </l>
+            <stage>(mancando)</stage>
+            <l>
+             E in te trionfi Allah, o mio Zopiro.
+            </l>
+            <l> 
+             mio destino seguirò, ma il cielo
+            </l>
+            <l>
+              Già al cor mi parla, e ornai mancar mi sento.
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop</speaker>
+            <l>Andiam.</l>
+        </sp>
+        <sp>
+            <speaker>Dai. </speaker>
+            <l>
+             Ohimè, Zopiro.,. Ah !.. nol
+            </l>
+            <l>
+             poss'io !..
+            </l>
+        </sp>
+        <sp>
+            <speaker> Zop</speaker>
+            <l>
+             Fa cor, Daila, fa cor...
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+             Ha la mia vita Termine col soffrir !
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop</speaker>
+            <l>
+             Oh cielo !
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l> 
+             Io
+            </l>
+            <l>
+             muojo....
+            </l>
+            <l>
+             E perdonata !.. Alla mia tomba un 
+            </l>
+            <l>
+             giorno,
+            </l>
+            <l>
+             Zopiro, oh pensier mio,
+            </l>
+            <l>
+             Verrai dolente a dar pietoso addio. 
+            </l>
+        </sp>
+        <sp>
+            <speaker>Zop</speaker>
+            <l>
+             Daila....
+            </l>
+        </sp>
+        <sp>
+            <speaker>Dai.</speaker>
+            <l>
+            Ah !
+            </l>
+            <stage>(spira)</stage>
+        </sp>
+        <sp>
+            <speaker>Zop</speaker>
+            <l>
+             Daila !... Oh Ciel !.
+            </l>
+        </sp>
+    <stage>FINE.</stage>
+    </div>
+</body>
+</text>
+<facsimile>
+    <graphic url="https://example.org/iiif/Gell_taccuino_6_pag_022-023_FotoCiol©/full/!400,400/0/default.jpg" xml:id="page_022-023"/>
+  </facsimile>
+</TEI>
