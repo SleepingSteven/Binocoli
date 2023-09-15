@@ -193,29 +193,32 @@
         <div class="col-4">
           <a class="w3-bar-item w3-button"><b>Confront and examine editions</b></a>
           <!-- <img src="image/legenda.png" style="width:100%"> -->
-          <div class="container px-4 bg-light">
-            <h2>XPath options</h2>
-          
-          <label for="xmlFiles">XML document:</label>
+          <label for="xmlFiles">Seleziona il file XML:</label>
           <select id="xmlFiles">
-            <option value="favorita_1840_parigi.xml">La Favorita 1840, Paris</option>
-            <option value="favorita_1842_padova.xml">La Favorita 1842, Padua</option>
-            <option value="favorita_1843_milano.xml">La Favorita 1843, Milan</option>
-            <option value="favorita_1860_roma.xml">La Favorita 1860, Rome</option>
-            <!-- Aggiungi opzioni per altri documenti XML, se necessario -->
+            <option value="favorita_1840_parigi.xml">favorita_1840_parigi.xml</option>
+            <option value="favorita_1842_padova.xml">favorita_1842_padova.xml</option>
+            <option value="favorita_1843_milano.xml">favorita_1843_milano.xml</option>
+            <option value="favorita_1860_roma.xml">favorita_1860_roma.xml</option>
+            <!-- Aggiungi altre opzioni per i tuoi file XML -->
           </select>
-          
-          <label for="options">XPath options:</label>
+          <br>
+        
+          <label for="options">Seleziona l'opzione:</label>
           <select id="options">
             <option value="speaker">Characters</option>
-            <option value="l">Lines</option>
             <option value="stage">Stages</option>
+            <option value="l">Lines</option>
+            <!-- Aggiungi altre opzioni se necessario -->
           </select>
-          
-          <button onclick="searchXPath()">Search</button>
+          <br>
+        
+          <button onclick="searchXPath()">Esegui Query</button>
+          <br>
         
           <div id="results">
-            <!-- Qui verranno visualizzati i risultati -->
+            <div id="column1" style="float: left; width: 33%;"></div>
+            <div id="column2" style="float: left; width: 33%;"></div>
+            <div id="column3" style="float: left; width: 33%;"></div>
           </div>
           </div>
 
@@ -279,8 +282,8 @@
 <script>
   const teiNamespace = "http://www.tei-c.org/ns/1.0";
   function searchXPath() {
+    const selectedXMLFile = document.getElementById("xmlFiles").value;
     const selectedOption = document.getElementById("options").value;
-    const selectedXMLFile = document.getElementById("xmlFiles").value; // Ottieni il documento XML selezionato
 
     // Leggi il contenuto del file XML selezionato
     fetch(selectedXMLFile)
@@ -289,17 +292,18 @@
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(xmlString, "text/xml");
 
-        // Esegui una query XPath con l'opzione selezionata
-        const xpathResult = xmlDoc.evaluate(`//*[local-name()='${selectedOption}' and namespace-uri()='${teiNamespace}']`, xmlDoc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
-        
         // Inizializza un oggetto per il conteggio dei risultati
         const resultCount = {};
-        
+
+        // Esegui una query XPath con l'opzione selezionata
+        const xpathExpression = `//*[local-name()='${selectedOption}' and namespace-uri()='${teiNamespace}']`;
+        const xpathResult = xmlDoc.evaluate(xpathExpression, xmlDoc, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+
         // Itera attraverso i risultati della query XPath
         for (let i = 0; i < xpathResult.snapshotLength; i++) {
           const node = xpathResult.snapshotItem(i);
           const textContent = node.textContent;
-          
+
           // Aggiungi o incrementa il conteggio per il testo trovato
           if (resultCount[textContent]) {
             resultCount[textContent]++;
@@ -307,7 +311,7 @@
             resultCount[textContent] = 1;
           }
         }
-        
+
         // Costruisci una stringa con i risultati conteggiati
         let result = "";
         for (const text in resultCount) {
@@ -318,10 +322,23 @@
 
         // Visualizza i risultati nell'area specificata
         const results = document.getElementById("results");
+
+        // Determina in quale colonna inserire i risultati in base all'opzione selezionata
+        let columnId = "";
+        if (selectedOption === "speaker") {
+          columnId = "column1";
+        } else if (selectedOption === "stage") {
+          columnId = "column2";
+        } else if (selectedOption === "l") {
+          columnId = "column3";
+        }
+
+        // Inserisci i risultati nella colonna corrispondente
+        const column = document.getElementById(columnId);
         if (result.length === 0) {
-          results.innerHTML = "Nessun risultato trovato.";
+          column.innerHTML = "Nessun risultato trovato.";
         } else {
-          results.innerHTML = result;
+          column.innerHTML = result;
         }
       })
       .catch(error => {
