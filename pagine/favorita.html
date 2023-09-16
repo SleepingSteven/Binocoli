@@ -357,13 +357,13 @@
         // Inserisci i risultati nella colonna corrispondente
         const column = document.getElementById(columnId);
         if (result.length === 0) {
-          column.innerHTML = "Nessun risultato trovato.";
+          column.innerHTML = "No results were found";
         } else {
           column.innerHTML = result;
         }
       })
       .catch(error => {
-        console.error("Errore nel caricamento del file XML: ", error);
+        console.error("Error in the uploading of the xml file", error);
       });
   }
     function clearResults() {
