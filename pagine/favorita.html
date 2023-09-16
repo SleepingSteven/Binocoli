@@ -11,7 +11,6 @@
   #results {
     max-height: 353px; /* Altezza massima del riquadro */
     overflow-y: auto; /* Abilita lo scrolling verticale se necessario */
-    border: 1px solid #ccc; /* Aggiungi un bordo per separare il riquadro */
     padding: 10px; /* Spaziatura interna per i risultati */
   }
 </style>
@@ -200,31 +199,39 @@
         </div>
         <div class="col-4">
          <div class="p-2 border bg-light">
-          <a class="w3-bar-item w3-button"><b>Confront and examine editions</b></a>
+          <!-- <a class="w3-bar-item w3-button"><b>Confront and examine editions</b></a> -->
           <!-- <img src="image/legenda.png" style="width:100%"> -->
-          <label for="xmlFiles">Select the XML file:</label>
-          <select id="xmlFiles">
+          <!-- <label for="xmlFiles">Select the XML file:</label> -->
+          <div class="row">
+          <div class="col-6">
+            <label for="xmlFiles" class="form-label">Select the XML file:</label>
+            <select id="xmlFiles" class="form-select">
             <option value="favorita_1840_parigi.xml">La Favorita 1840, Paris</option>
             <option value="favorita_1842_padova.xml">La Favorita 1842, Padua</option>
             <option value="favorita_1843_milano.xml">La Favorita 1843, Milan</option>
             <option value="favorita_1860_roma.xml">La Favorita 1860, Rome</option>
             <!-- Aggiungi altre opzioni per i tuoi file XML -->
           </select>
-          <br>
+          </div>
         
-          <label for="options">Select the option:</label>
-          <select id="options">
+          <!-- <label for="options">Select the option:</label> -->
+          <div class="col-6">
+
+            <label for="options" class="form-label">Select the option:</label>
+            <select id="options" class="form-select"><!-- Scelta predefinita -->
             <option value="speaker">Speakers</option>
             <option value="stage">Stage directions</option>
             <option value="l">Lines</option>
             <!-- Aggiungi altre opzioni se necessario -->
           </select>
-          <br>
+          </div>
+          </div>
         
           <button onclick="searchXPath()">Search</button>
           <button onclick="clearResults()">Clear</button>
           <br>
-         <!-- <div class="p-2 border bg-light"> -->
+          </div>
+         <div class="p-2 border bg-light">
           <div id="results">
             <div id="column1" style="float: left; width: 33%;"></div>
             <div id="column2" style="float: left; width: 33%;"></div>
