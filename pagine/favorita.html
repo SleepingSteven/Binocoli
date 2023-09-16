@@ -388,6 +388,12 @@
 </script>
 <script>
   function openMiradorViewer(imgID) {
+    const width = 1000;
+    const height = 600;
+
+    const y = window.top.outerHeight / 2 + window.top.screenY - (height / 2);
+    const x = window.top.outerWidth / 2 + window.top.screenX - (width / 2);
+
     let url;
     switch(imgID) {
       case 'img1':
@@ -408,7 +414,7 @@
         return;
     }
 
-    window.open(url, 'miradorViewer', 'width=800, height=600');
+    window.open(url, 'miradorViewer', `width=${width},height=${height},top=${y},left=${x}`);
   }
 </script>
 
