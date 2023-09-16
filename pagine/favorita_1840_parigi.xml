@@ -37,31 +37,31 @@
     <body>
       <div>
         <head>SCENA SETTIMA ED ULTIMA</head>
-		<stage><persName><forename xml:id="Fernando">Fernando</forename></persName> che esce dal coro, e <persName><forename xml:id="Baldassarre">Baldassarre</forename></persName></stage>
+		<stage><persName xml:id="Fernando"><forename>Fernando</forename></persName> che esce dal coro, e <persName xml:id="Baldassarre"><forename>Baldassarre</forename></persName></stage>
         <sp>
-          <speaker><persName><forename corresp="#Fernando">FERNANDO</forename></persName></speaker>
+          <speaker><persName corresp="#Fernando"><forename>FERNANDO</forename></persName></speaker>
           <l>
             Ah padre, è <rs type="coreference"><ref target="#Leonora"/>dessa</rs>!
           </l>
           <l>
-             Mia <persName><forename xml:id="Leonora">Leonora</forename></persName>.
+             Mia <persName xml:id="Leonora"><forename>Leonora</forename></persName>.
           </l>
         </sp>
         <sp>
-          <speaker><persName><forename corresp="#Baldassarre">BALDASSARE</forename></persName></speaker>
+          <speaker><persName corresp="#Baldassarre"><forename>BALDASSARE</forename></persName></speaker>
           <stage>(si abbassa verso il cadavere e <rs type="coreference"><ref target="#Leonora"/>riconoscendola</rs>)</stage>
           <l>
             Oh, chi vegg'io!
           </l>
         </sp>
         <sp>
-          <speaker><persName><forename corresp="#Fernando">FERNANDO</forename></persName></speaker>
+          <speaker><persName corresp="#Fernando"><forename>FERNANDO</forename></persName></speaker>
           <l>
-            <persName><forename corresp="#Leonora">Leonora</forename></persName>!
+            <persName corresp="#Leonora"><forename>Leonora</forename></persName>!
           </l>
         </sp>
         <sp>
-          <speaker><persName><forename corresp="#Baldassarre">BALDASSARE</forename></persName></speaker>
+          <speaker><persName corresp="#Baldassarre"><forename>BALDASSARE</forename></persName></speaker>
           <l>
             Silenzio, <rs type="coreference"><ref target="#Leonora"/>ella</rs> è già spenta.
           </l>
@@ -71,7 +71,7 @@
           </l>
         </sp>
         <sp>
-          <speaker><persName><forename corresp="#Fernando">FERNANDO</forename></persName></speaker>
+          <speaker><persName corresp="#Fernando"><forename>FERNANDO</forename></persName></speaker>
           <l>
             Anch'io avrò diman la vostra prece.
           </l>
