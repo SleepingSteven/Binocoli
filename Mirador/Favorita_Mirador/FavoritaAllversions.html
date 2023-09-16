@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="description" content="mirador viewer">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+            <link rel="stylesheet" href="../Css/style.css">
+            <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"defer></script>
+            <title> Favorite - All versions</title>
+        </head>
+        <body>
+            
+            <div class="viewer-container">
+                <h2 class="title">La Favorite - French Version (1840)</h2>
+                <div id="mirador_la_favorite_1840">
+                    <script src="../Javascript/Favorite1840.js"defer></script>
+                </div>
+            </div>
+
+            <div class="viewer-container">
+                <h2 class="title">La Favorita (Leonora di Guzman) - 1842</h2>
+                <div id="mirador_la_favorita_1842">
+                    <script src="../Javascript/favorita1842.js"defer></script>
+                </div>
+            </div>
+
+            <div class="viewer-container">
+                <h2 class="title">La Favorita (Elda) - 1843</h2>
+                <div id="mirador_la_favorita_1843">
+                    <script src="../Javascript/favorita1843.js"defer></script>
+                </div>
+            </div>
+
+            <div class="viewer-container">
+                <h2 class="title">La Favorita (Daila) - 1860</h2>
+                <div id="mirador_la_favorita_1860">
+                    <script src="../Javascript/favorita1860.js"defer></script>
+                </div>
+            </div>
+           
+            
+
+            <!-- <script>
+                function loadScript(src, callback){
+                    var script = document.createElement('script');
+                    script.type = 'text/javascript';
+                    script.src = src;
+                    script.onload = callback;  // callback function will be called once script is loaded
+                    document.head.appendChild(script);
+                }
+        
+                loadScript('Javascript/Favorite1840.js', function(){
+                    console.log('Script 1 loaded');
+                    loadScript('Javascript/favorita1842.js', function(){
+                        console.log('Script 2 loaded');
+                        loadScript('Javascript/(Il nome del file per ID 3).js', function(){
+                            console.log('Script 3 loaded');
+                            loadScript('Javascript/Favorita1860.js', function(){
+                                console.log('Script 4 loaded');
+                            });
+                        });
+                    });
+                });
+            </script> -->
+            
+        </body>
+    </html>
