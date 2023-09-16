@@ -89,3 +89,5 @@
     <graphic url="https://example.org/iiif/Gell_taccuino_6_pag_022-023_FotoCiol©/full/!400,400/0/default.jpg" xml:id="page_022-023"/>
   </facsimile>
 </TEI>
+
+<!-- se lo stylesheet continua a non funzionare eliminare da dentro i tag speaker i vari persName e forename -->
