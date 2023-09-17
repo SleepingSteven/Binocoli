@@ -40,31 +40,37 @@
     <div>
     <head>SCENA ULTIMA.</head>
     <sp>
-        <speaker>GIL.</speaker>
+        <speaker><persName xml:id="Gilberto"><forename>GIL.</forename></persName></speaker>
         <l>
-         Venite : è lei… Everardo <stage>(ad. Eve)</stage>
+         Venite : è lei… <persName xml:id="Everardo"><forename>Everardo</forename></persName> <stage>(ad. <persName corresp="Everardo"><forename>Eve</forename></persName>)</stage>
         </l>
     </sp>
     <sp>
-        <speaker>EVE.</speaker>
+        <speaker><persName corresp="Everardo"><forename>EVE.</forename></persName></speaker>
         <l>
          Che veggo!
         </l>
     </sp>
     <sp>
-        <speaker>GIL.</speaker>
+        <speaker><persName corresp="Gilberto"><forename>GIL.</forename></persName></speaker>
         <l>
-         Elda…
+         <persName xml:id="Elda"><forename>Elda...</forename></persName>
         </l>
     </sp>
     <sp>
-        <speaker>EVE.</speaker>
+        <speaker><persName corresp="Everardo"><forename>EVE.</forename></persName></speaker>
         <l>
-         Silenzio!...È spenta <stage>(coprendola della sua veste)</stage> Un infelice uscìa di questa vita: <stage>(ai Tem.)</stage> Per lui pregate, miei fratelli, Iddio! <stage>(tutti i Templari s’inginocchiano)</stage>
+         Silenzio!...È spenta <stage>(coprendola della <rs type="coreference"><ref target="#Everardo"/>sua</rs> veste)</stage>
+        </l>
+        <l>
+          Un infelice uscìa di questa vita: <stage>(ai Tem.)</stage>
+        </l>
+        <l>
+          Per lui pregate, miei fratelli, Iddio! <stage>(tutti i Templari s’inginocchiano)</stage>
         </l>
     </sp>
     <sp>
-        <speaker>GIL.</speaker>
+        <speaker><persName corresp="Gilberto"><forename>GIL.</forename></persName></speaker>
         <l>
          Spento sarò col nuovo giorno anch’io.
         </l>
