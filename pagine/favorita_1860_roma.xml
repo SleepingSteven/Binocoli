@@ -72,7 +72,7 @@
         <sp>
             <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
-             Ah !. È desso !
+             Ah !. È <rs type="coreference"><ref target="#Zopiro"/>desso</rs> !
             </l>
         </sp>
         <sp>
