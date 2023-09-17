@@ -85,8 +85,8 @@
       </div>
     </body>
   </text>
-<facsimile>
-    <graphic url="https://example.org/iiif/Gell_taccuino_6_pag_022-023_FotoCiol©/full/!400,400/0/default.jpg" xml:id="page_022-023"/>
+<facsimile facs="https://corrado877.github.io/ManifestsLaFavorita/manifests/Favorite1840.json">
+    <graphic url="https://archive.org/details/la-favorita-p47/full/full/0/default.jpg;" xml:id="La_Favorita_1840_Paris"/>
   </facsimile>
 </TEI>
 

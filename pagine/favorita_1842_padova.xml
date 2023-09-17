@@ -82,7 +82,7 @@
       </div>
       </body>
     </text>
-    <facsimile>
-    <graphic url="https://example.org/iiif/Gell_taccuino_6_pag_022-023_FotoCiol©/full/!400,400/0/default.jpg" xml:id="page_022-023"/>
+    <facsimile facs="https://corrado877.github.io/ManifestsLaFavorita/manifests/leonoraguzman.json">
+    <graphic url="https://iiif.archivelab.org/iiif/leonoradiguzmand00-p56/full/full/0/default.jpg;https://iiif.archivelab.org/iiif/leonoradiguzmand00roye-p57/full/full/0/default.jpg;" xml:id="La_Favorita_1842_Padua"/>
   </facsimile>
 </TEI>

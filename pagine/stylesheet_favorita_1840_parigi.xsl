@@ -57,11 +57,11 @@
     </p>
   </xsl:template>
 
-  <xsl:template match="tei:sp/tei:speaker">
-    <span class="titoletto">
-      <xsl:value-of select="text()"/>
-    </span>
-  </xsl:template>
+   <xsl:template match="tei:sp/tei:speaker[not(*)] | tei:sp/tei:speaker[tei:persName/tei:forename]">
+      <span class="titoletto">
+         <xsl:value-of select="."/>
+      </span>
+   </xsl:template>
 
   <xsl:template match="tei:sp/tei:stage">
     <span class="corsivo">
