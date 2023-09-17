@@ -248,7 +248,7 @@ text-shadow: 1px 1px white;
       function getData(){
   // load the xml file
         myXMLHTTPRequest = new XMLHttpRequest(); myXMLHTTPRequest.onreadystatechange = showData;
-        myXMLHTTPRequest.open("GET", "https://2977b79745cadb.lhr.life/bigdata/sparql?query="+encodeURIComponent("select * where { "+document.getElementById("name").value+" ?p ?o } limit 1 "), true);
+        myXMLHTTPRequest.open("GET", "https://crazy-cups-see.loca.lt/bigdata/sparql?query="+encodeURIComponent("select * where { "+document.getElementById("name").value+" ?p ?o } limit 1 "), true);
         //myXMLHTTPRequest.setRequestHeader("query=SELECT * { ?s ?p ?o } LIMIT 1")
         
         myXMLHTTPRequest.send(null); }
