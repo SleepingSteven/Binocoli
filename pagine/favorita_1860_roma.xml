@@ -84,7 +84,7 @@
         <sp>
             <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker> 
             <l>
-             È desso!
+             È <rs type="coreference"><ref target="#Zopiro"/>desso</rs>!
             </l>
             <l>
              Deh non mi maledir… son io... son io !
@@ -99,7 +99,7 @@
              Fa eh' io tranquillo scenda sotterra,
             </l>
             <l>
-             Non disperato al par di te.
+             Non disperato al par di <rs type="coreference"><ref target="#Zopiro"/>te</rs>.
             </l>
             <l>
              Nel suo palagio sai chi t'attende...
