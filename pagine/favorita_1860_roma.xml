@@ -37,7 +37,7 @@
     <body>
         <div>
         <sp>
-            <speaker>Zopiro</speaker>
+            <speaker><persName xml:id="Zopiro"><forename>Zopiro</forename></persName></speaker>
             <l>
              Compiuto è il mio destino; e mio malgrado
             </l>
@@ -49,7 +49,7 @@
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName xml:id="Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              Oh ciel!... Che affano…Ohimè!.. io
             </l>
@@ -58,7 +58,7 @@
             </l>
         </sp>
         <sp>
-            <speaker>Zop.</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>
              Che ascolto !,.. Un infelice al suol
             </l>
@@ -70,19 +70,19 @@
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              Ah !. È desso !
             </l>
         </sp>
         <sp>
-            <speaker>Zop.</speaker> 
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker> 
             <l>
              Oh ciel!
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker> 
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker> 
             <l>
              È desso!
             </l>
@@ -115,7 +115,7 @@
             </l>
         </sp>
         <sp>
-            <speaker>Dail</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dail</forename></persName></speaker>
             <l>
              Pregando, ohimè! diressi
             </l>
@@ -130,7 +130,7 @@
             </l>
         </sp>
         <sp>
-            <speaker>Zopiro</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zopiro</forename></persName></speaker>
             <l>
              O tu che m' ingannasti ,
             </l>
@@ -139,7 +139,7 @@
             </l>
         </sp>
         <sp>
-            <speaker>Dail</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dail</forename></persName></speaker>
             <l>
              La pena or cadè
             </l>
@@ -153,9 +153,9 @@
              Sperai nell' innocenza... Ah ! mi credete...
             </l>
         </sp>
-        <stage>(Zopiro vorrebbe fuggire, ma dessa l'arresta)</stage>
+        <stage>(<persName corresp="#Zopiro"><forename>Zopiro</forename></persName> vorrebbe fuggire, ma dessa l'arresta)</stage>
         <sp>
-            <speaker>Dail</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dail</forename></persName></speaker>
             <l>
              Al cospetto di morte
             </l>
@@ -170,13 +170,13 @@
             </l>
         </sp>
         <sp>
-            <speaker>Zopiro</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zopiro</forename></persName></speaker>
             <l>
-             Zopiro... Ohimè !...
+             <persName corresp="#Zopiro"><forename>Zopiro</forename></persName>... Ohimè !...
             </l>
         </sp>
         <sp>
-            <speaker>Dail</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dail</forename></persName></speaker>
             <l>
              La norma, ah ! segui 
             </l>
@@ -224,7 +224,7 @@
             </l>
         </sp>
         <sp>
-            <speaker>Zopiro</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zopiro</forename></persName></speaker>
             <stage>(À quell' affanno, a queir accento</stage>
             <l>
              Sento, oh ciel ! stemprarsi il cor.
@@ -235,9 +235,9 @@
             <stage>Le speranze dell' amor.) </stage>
         </sp>
         <sp>
-            <speaker>Daila</speaker>
+            <speaker><persName corresp="#Daila"><forename>Daila</forename></persName></speaker>
             <l>
-              Daila Le braccia, ahi grama, io ti protendo,'
+              <persName corresp="#Daila"><forename>Dail</forename></persName> Le braccia, ahi grama, io ti protendo,'
             </l>
             <l>
               Vedi che smania accolgo in me...
@@ -250,7 +250,7 @@
             </l>
         </sp>
         <sp>
-            <speaker>Zop.</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>
              Addio, - fuggir mi lascia
             </l>
@@ -283,12 +283,12 @@
             </l>
         </sp>
         <sp>
-            <speaker>Zop.</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <stage>(Giusto cielo, il mio furore
             Come foglia inaridì ! )</stage>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              Ah pietate il cor ti muova,
             </l>
@@ -296,47 +296,47 @@
              Già vicina io sono a morte...
             </l>
             <l>
-             Ah ! Zopiro... mio Zopiro !..
+             Ah ! <persName corresp="#Zopiro"><forename>Zopiro</forename></persName>... mio <persName corresp="#Zopiro"><forename>Zopiro</forename></persName> !..
             </l>
         </sp>
         <sp>
-            <speaker>Zop.</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>
              Ciel !...
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              Di me... di nae pietà.
             </l>
         </sp>
         <sp>
-            <speaker>Zop.</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>
-             Daila !
+             <persName corresp="#Daila"><forename>Daila</forename></persName> !
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              Grazia...
             </l>
         </sp>
         <sp>
-            <speaker>Zop.</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>
              Allah perdona...
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              E tu ?
             </l>
         </sp>
         <sp>
-            <speaker>Zop.</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>
              Io t'amo... Perdonami Allah.
             </l>
@@ -366,7 +366,7 @@
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              E fia vero.... Io m'abbandono 
             </l>
@@ -393,13 +393,13 @@
             </l>
         </sp>
         <sp>
-            <speaker>Zop.</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>
              Fuggiamo, fuggiamo insieme.
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              Ah taci... E vana speme!.
             </l>
@@ -417,19 +417,19 @@
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              Queste preci odi tu ?
             </l>
         </sp>
         <sp>
-            <speaker>Zop.</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>
              Fuggiamo.
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              Allah,
             </l>
@@ -444,7 +444,7 @@
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              È questo il tuo desir ?
             </l>
@@ -459,7 +459,7 @@
             </l>
         </sp>
         <sp>
-            <speaker>Dail.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dail.</forename></persName></speaker>
             <l>
              Ah !.. il favore d'Allah
             </l>
@@ -468,7 +468,7 @@
             </l>
             <stage>(mancando)</stage>
             <l>
-             E in te trionfi Allah, o mio Zopiro.
+             E in te trionfi Allah, o mio <persName corresp="#Zopiro"><forename>Zopiro</forename></persName>.
             </l>
             <l> 
              mio destino seguirò, ma il cielo
@@ -478,38 +478,38 @@
             </l>
         </sp>
         <sp>
-            <speaker>Zop</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>Andiam.</l>
         </sp>
         <sp>
-            <speaker>Dai. </speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
-             Ohimè, Zopiro.,. Ah !.. nol
+             Ohimè, <persName corresp="#Zopiro"><forename>Zopiro</forename></persName>.,. Ah !.. nol
             </l>
             <l>
              poss'io !..
             </l>
         </sp>
         <sp>
-            <speaker> Zop</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>
-             Fa cor, Daila, fa cor...
+             Fa cor, <persName corresp="#Daila"><forename>Daila</forename></persName>, fa cor...
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
              Ha la mia vita Termine col soffrir !
             </l>
         </sp>
         <sp>
-            <speaker>Zop</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop.</forename></persName></speaker>
             <l>
              Oh cielo !
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l> 
              Io
             </l>
@@ -523,29 +523,29 @@
              giorno,
             </l>
             <l>
-             Zopiro, oh pensier mio,
+             <persName corresp="#Zopiro"><forename>Zopiro</forename></persName>, oh pensier mio,
             </l>
             <l>
              Verrai dolente a dar pietoso addio. 
             </l>
         </sp>
         <sp>
-            <speaker>Zop</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop</forename></persName></speaker>
             <l>
-             Daila....
+             <persName corresp="#Daila"><forename>Daila</forename></persName>....
             </l>
         </sp>
         <sp>
-            <speaker>Dai.</speaker>
+            <speaker><persName corresp="#Daila"><forename>Dai.</forename></persName></speaker>
             <l>
             Ah !
             </l>
             <stage>(spira)</stage>
         </sp>
         <sp>
-            <speaker>Zop</speaker>
+            <speaker><persName corresp="#Zopiro"><forename>Zop</forename></persName></speaker>
             <l>
-             Daila !... Oh Ciel !.
+             <persName corresp="#Daila"><forename>Daila</forename></persName> !... Oh Ciel !.
             </l>
         </sp>
     <stage>FINE.</stage>
