@@ -37,44 +37,47 @@
     <body>
       <div>
         <head>SCENA SETTIMA ED ULTIMA</head>
-		<stage> Fernando che esce dal coro, e Baldassarre</stage>
+		<stage><persName xml:id="Fernando"><forename>Fernando</forename></persName> che esce dal coro, e <persName xml:id="Baldassarre"><forename>Baldassarre</forename></persName></stage>
         <sp>
-          <speaker>FERNANDO</speaker>
+          <speaker><persName corresp="#Fernando"><forename>FERNANDO</forename></persName></speaker>
           <l>
-            Ah padre, è dessa! <caesura/> Mia Leonora.
+            Ah padre, è <rs type="coreference"><ref target="#Leonora"/>dessa</rs>!
+          </l>
+          <l>
+             Mia <persName xml:id="Leonora"><forename>Leonora</forename></persName>.
           </l>
         </sp>
         <sp>
-          <speaker>BALDASSARE</speaker>
-          <stage>(si abbassa verso il cadavere e riconoscendola)</stage>
+          <speaker><persName corresp="#Baldassarre"><forename>BALDASSARE</forename></persName></speaker>
+          <stage>(si abbassa verso il cadavere e <rs type="coreference"><ref target="#Leonora"/>riconoscendola</rs>)</stage>
           <l>
             Oh, chi vegg'io!
           </l>
         </sp>
         <sp>
-          <speaker>FERNANDO</speaker>
+          <speaker><persName corresp="#Fernando"><forename>FERNANDO</forename></persName></speaker>
           <l>
-            Leonora!
+            <persName corresp="#Leonora"><forename>Leonora</forename></persName>!
           </l>
         </sp>
         <sp>
-          <speaker>BALDASSARE</speaker>
+          <speaker><persName corresp="#Baldassarre"><forename>BALDASSARE</forename></persName></speaker>
           <l>
-            Silenzio, ella è già spenta.
+            Silenzio, <rs type="coreference"><ref target="#Leonora"/>ella</rs> è già spenta.
           </l>
-          <stage>(poi si volge verso gli altri)</stage>
+          <stage>(poi si volge verso gli <rs type="coreference"><ref target="#Tutti"/>altri</rs>)</stage>
           <l>
             Sul peregrin novello, le vostre preci: ei più non vive.
           </l>
         </sp>
         <sp>
-          <speaker>FERNANDO</speaker>
+          <speaker><persName corresp="#Fernando"><forename>FERNANDO</forename></persName></speaker>
           <l>
             Anch'io avrò diman la vostra prece.
           </l>
         </sp>
         <sp>
-          <speaker>TUTTI</speaker>
+          <speaker xml:id="Tutti">TUTTI</speaker>
           <l>
             Oh Dio!
           </l>
@@ -86,3 +89,5 @@
     <graphic url="https://example.org/iiif/Gell_taccuino_6_pag_022-023_FotoCiol©/full/!400,400/0/default.jpg" xml:id="page_022-023"/>
   </facsimile>
 </TEI>
+
+<!-- se lo stylesheet continua a non funzionare eliminare da dentro i tag speaker i vari persName e forename -->
