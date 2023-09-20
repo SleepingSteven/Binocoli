@@ -14,7 +14,7 @@ body{
         flex-wrap: wrap;
         flex-direction: row;
         border: 1px solid grey;
-        background-color: hsl(0, 0%, 95%);
+        background-color: hsl(0, 0%, 98%);
         padding: 20px 10px 10px 10px;
         list-style-type: none;
         margin: 0;
@@ -43,7 +43,7 @@ body{
 
 #blu:before { background-color: blue; }
 #pink:before { background-color: pink; }
-#green:before { background-color: green; }
+#green:before { background-color: rgb(11, 194, 11); }
 #orange:before { background-color: orange; }
 #red:before { background-color: red; }
 #light-blue:before { background-color: lightblue; }
