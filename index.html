@@ -234,37 +234,97 @@ text-shadow: 1px 1px white;
     <div class="w3-container w3-padding-32" id="contact" style="width:30%; float:left">
       <h1 align="center" class="w3-border-bottom w3-border-light-grey w3-padding-16">Corago</h1>
       <p>Search your interest</p>
-      <form>
-        <input class="w3-input w3-border" type="text" placeholder="Opera" required name="Name" id="name">
-        <input class="w3-input w3-section w3-border" type="text" placeholder="Author" required name="Email">
-        <input class="w3-input w3-section w3-border" type="text" placeholder="Location" required name="Subject">
-        <input class="w3-input w3-section w3-border" type="text" placeholder="Keyword" required name="Comment">
-        <button class="w3-button w3-black w3-section" type="submit" onClick="getData()">
+      <form onsubmit="return false" id="coragoform">
+        <input class="w3-input w3-border" type="text" placeholder="Opera" name="Name" id="name">
+        <input class="w3-input w3-section w3-border" type="text" placeholder="Author"  name="Email" id="author">
+        <input class="w3-input w3-section w3-border" type="text" placeholder="Location" name="Subject" id="location">
+        <input class="w3-input w3-section w3-border" type="text" placeholder="Character" name="Subject" id="character">
+        <button class="w3-button w3-black w3-section" onClick="getData()">
           <i class="fa fa-paper-plane"></i> SEARCH
         </button>
       </form>
     </div>
+    <div class="modal fade" tabindex="-1" role="dialog" id="myModal" style="overflow: scroll">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Results</h4>
+          </div>
+          <div class="modal-body" id="corpo">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal" onClick="hide()">Close</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script>
+      function hide(){
+        $('#myModal').modal('hide');
+      }
+      function checkFields(form) {
+          var checks_radios = form.find(':checkbox, :radio'),
+              inputs = form.find(':input').not(checks_radios).not('[type="submit"],[type="button"],[type="reset"]'),
+              checked = checks_radios.filter(':checked'),
+              filled = inputs.filter(function(){
+                  return $.trim($(this).val()).length > 0;
+              });
+
+          if(checked.length + filled.length === 0) {
+              return false;
+          }
+
+          return true;
+      }
       function getData(){
+        var oneFilled = checkFields($('#coragoform'));
+        if (oneFilled===true) {
+        document.getElementById('corpo').innerHTML=""
   // load the xml file
         myXMLHTTPRequest = new XMLHttpRequest(); myXMLHTTPRequest.onreadystatechange = showData;
-        myXMLHTTPRequest.open("GET", "https://crazy-cups-see.loca.lt/bigdata/sparql?query="+encodeURIComponent("select * where { "+document.getElementById("name").value+" ?p ?o } limit 1 "), true);
-        //myXMLHTTPRequest.setRequestHeader("query=SELECT * { ?s ?p ?o } LIMIT 1")
         
+        //myXMLHTTPRequest.setRequestHeader("query=SELECT * { ?s ?p ?o } LIMIT 1")
+        myXMLHTTPRequest.open("GET", "https://f3166eb280dd6f.lhr.life/bigdata/sparql?query="+encodeURIComponent("select distinct ?titolo ?autore ?link ?luogo ?data where {?link ?p ?opera; <http://erlangen-crm.org/current/P2_has_type> <http://corago.unibo.it/resource/TADE/LB1&LB1LB>; <http://corago.unibo.it/sm/CPBC23_work_author_in_source> ?author; rdfs:label ?titolo; <http://corago.unibo.it/sm/CPBC22_place_of_publication> ?luog; <http://erlangen-crm.org/current/P67_refers_to> ?play. ?luog rdfs:label ?luogo. ?play <http://corago.unibo.it/sm/CPBC5_character_performance> ?pers; <http://erlangen-crm.org/current/P4_has_time-span> ?date. ?date rdfs:label ?data. ?pers rdfs:label ?personaggio. ?author rdfs:label ?autore. FILTER (CONTAINS(STR(?autore), '"+document.getElementById("author").value+"')) FILTER (CONTAINS(STR(?personaggio), '"+document.getElementById("character").value+"')) FILTER (CONTAINS(STR(?opera), '"+document.getElementById("name").value+"')) FILTER (CONTAINS(STR(?luogo), '"+document.getElementById("location").value+"'))} limit 30 "), true);
+
         myXMLHTTPRequest.send(null); }
+        else {
+          alert( "Please enter at least one field" );
+        }
         function showData() {
         if (myXMLHTTPRequest.readyState == 4) {
         if (myXMLHTTPRequest.status == 200) { //reads the response
         xmlDoc = myXMLHTTPRequest.responseXML; // locates the fragment
-        risultato=xmlDoc.querySelector("binding[name='o']");
+        risultato=xmlDoc.querySelectorAll("result");
+        links=xmlDoc.querySelectorAll("binding[name='link']");
+        titoli=xmlDoc.querySelectorAll("binding[name='titolo']");
+        autori=xmlDoc.querySelectorAll("binding[name='autore']");
+        luoghi=xmlDoc.querySelectorAll("binding[name='luogo']");
+        date=xmlDoc.querySelectorAll("binding[name='data']");
+        for (let i=0; i<risultato.length; i++) {
+                var link=links[i].getElementsByTagName("uri")[0].innerHTML;
+                console.log(link)  
+                var titolo=titoli[i].innerHTML;  
+                var autore=autori[i].innerHTML;  
+                var luogo=luoghi[i].innerHTML;
+                var data=date[i].innerHTML;
+                if (titolo.includes('Favorite')||titolo.includes('Favorita')||titolo.includes('Guzman')||titolo.includes('Leonora')||titolo.includes('Daila')||titolo.includes('Elda')){
+                document.getElementById('corpo').insertAdjacentHTML("beforeend","<p><a href='pagine/favorita.html'>'"+titolo+"'</a>&nbsp;"+luogo+"&nbsp;"+data+"</p><p>"+autore+"&nbsp;"+"<a href='"+link+"' target='_blank'>View in Corago</a><hr>");
+                }
+                else {
+                  document.getElementById('corpo').insertAdjacentHTML("beforeend","<p>'"+titolo+"'&nbsp;"+luogo+"&nbsp;"+data+"</p><p>"+autore+"&nbsp;"+"<a href='"+link+"' target='_blank'>View in Corago</a><hr>");  
+                }
+              }
+        }
+          $('#myModal').modal('show'); 
+        }
+        if (risultato.length==0) {
+          document.getElementById('corpo').innerHTML="<p>No results</p>"
+        $('#myModal').modal('show');    
+        }}
         
-        if (risultato.innerHTML.includes("<literal")) {
-          alert(xmlDoc.querySelector("binding[name='o']").getElementsByTagName("literal")[0].innerHTML)
-        } else {
-          alert(xmlDoc.querySelector("binding[name='o']").getElementsByTagName("uri")[0].innerHTML)
-        }
-        } }
-        }
+       }
+        
     </script>
     <br><br><br><br><br>
     <div><p align="right"><iframe style="align: center" width="70%" height="500" src="https://www.youtube.com/embed/lSJhQ5zYzwo?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p></div>
