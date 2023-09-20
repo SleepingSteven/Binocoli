@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+
+
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.color-keys  {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border: 1px solid grey;
+        background-color: hsl(0, 0%, 95%);
+        padding: 20px 10px 10px 10px;
+        list-style-type: none;
+        margin: 0;
+        justify-content: center;
+       
+        
+    }
+
+.color-keys li {
+    margin: 0 10px 10px 0;
+    position: relative;
+    padding-left: 20px;
+}
+    
+
+.color-keys li:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: currentColor;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#blu:before { background-color: blue; }
+#pink:before { background-color: pink; }
+#green:before { background-color: green; }
+#orange:before { background-color: orange; }
+#red:before { background-color: red; }
+#light-blue:before { background-color: lightblue; }
+#brown:before { background-color: brown; }
+
+
+.keywords-list {
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    
+}
+
+
+
+@media(max-width: 1032px) {
+    .keywords-list {
+        padding-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        bottom: 0;
+        
+    }
+}
+
+
+.mirador1 {
+    bottom:15% !important;
+}
+
+@media (min-width: 600px) {
+
+.mirador5 {
+    left: 0;
+    right: auto;
+    width: 64px;
+    height: 84.0% !important;
+    }
+}
+
+ @media (max-width: 576px) {
+   .keywords-list {
+    max-height: 20vh;
+   }
+   
+
+}
+
+@media (max-width: 576px) {
+    .color-keys {
+     overflow-y: scroll;
+    max-height: 15vh;
+    }
+    
+}
+
+
+
+ @media (max-width: 576px) {
+    .mosaic-tile > * {
+        width: 100%;
+        height: 95% !important;
+    }
+}
+
+ @media (max-width: 320px) {
+    .MuiToolbar-root{
+        overflow: hidden;
+        align-items: self-start !important;
+    }
+}
+    
+ 
+ 
