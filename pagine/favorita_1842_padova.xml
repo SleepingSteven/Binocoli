@@ -37,7 +37,7 @@
         <body>
         <div>
         <head>SCENA VI</head>
-        <stage> <persName xml:id="Leonora"><forename>Leonora</forename></persName> distesa in terra, <persName xml:id="Fernando"><forename>Fernando</forename></persName>, <persName xml:id="Baldassare"><forename>Baldassare</forename></persName> che esce dal tempio seguito dai Montanari e Soldati </stage>
+        <stage> <persName xml:id="Leonora"><forename>Leonora</forename></persName> distesa in terra, <persName xml:id="Fernando"><forename>Fernando</forename></persName>, <persName xml:id="Baldassare"><forename>Baldassare</forename></persName> che esce dal tempio seguito dai <roleName>Montanari</roleName> e <roleName>Soldati</roleName></stage>
         <sp>
             <speaker><persName corresp="#Fernando"><forename>Fer.</forename></persName></speaker>
         <l>
@@ -59,7 +59,7 @@
         <sp>
             <speaker><persName corresp="#Baldassare"><forename>Bal.</forename></persName></speaker>
             <l>
-             Silenzio, <rs type="coreference"><ref target="#Leonora"/>ella</rs> è già spenta <stage>(poi si volge Sul peregrin novello agli altri.)</stage>
+             Silenzio, <rs type="coreference"><ref target="#Leonora"/>ella</rs> è già spenta <stage>(poi si volge Sul peregrin novello agli <rs type="coreference"><ref target="#Tutti"/>altri</rs>.)</stage>
             </l>
         </sp>
         <sp>
