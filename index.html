@@ -291,7 +291,7 @@ text-shadow: 1px 1px white;
         myXMLHTTPRequest = new XMLHttpRequest(); myXMLHTTPRequest.onreadystatechange = showData;
         
         //myXMLHTTPRequest.setRequestHeader("query=SELECT * { ?s ?p ?o } LIMIT 1")
-        myXMLHTTPRequest.open("GET", "https://f3166eb280dd6f.lhr.life/bigdata/sparql?query="+encodeURIComponent("select distinct ?titolo ?autore ?link ?luogo ?data where {?link ?p ?opera; <http://erlangen-crm.org/current/P2_has_type> <http://corago.unibo.it/resource/TADE/LB1&LB1LB>; <http://corago.unibo.it/sm/CPBC23_work_author_in_source> ?author; rdfs:label ?titolo; <http://corago.unibo.it/sm/CPBC22_place_of_publication> ?luog; <http://erlangen-crm.org/current/P67_refers_to> ?play. ?luog rdfs:label ?luogo. ?play <http://corago.unibo.it/sm/CPBC5_character_performance> ?pers; <http://erlangen-crm.org/current/P4_has_time-span> ?date. ?date rdfs:label ?data. ?pers rdfs:label ?personaggio. ?author rdfs:label ?autore. FILTER (CONTAINS(STR(?autore), '"+document.getElementById("author").value+"')) FILTER (CONTAINS(STR(?personaggio), '"+document.getElementById("character").value+"')) FILTER (CONTAINS(STR(?opera), '"+document.getElementById("name").value+"')) FILTER (CONTAINS(STR(?luogo), '"+document.getElementById("location").value+"'))} limit 30 "), true);
+        myXMLHTTPRequest.open("GET", "https://2b05c4e85455b0.lhr.life/bigdata/sparql?query="+encodeURIComponent("select distinct ?titolo ?autore ?link ?luogo ?data where {?link ?p ?opera; <http://erlangen-crm.org/current/P2_has_type> <http://corago.unibo.it/resource/TADE/LB1&LB1LB>; <http://corago.unibo.it/sm/CPBC23_work_author_in_source> ?author; rdfs:label ?titolo; <http://corago.unibo.it/sm/CPBC22_place_of_publication> ?luog; <http://erlangen-crm.org/current/P67_refers_to> ?play. ?luog rdfs:label ?luogo. ?play <http://corago.unibo.it/sm/CPBC5_character_performance> ?pers; <http://erlangen-crm.org/current/P4_has_time-span> ?date. ?date rdfs:label ?data. ?pers rdfs:label ?personaggio. ?author rdfs:label ?autore. FILTER (CONTAINS(STR(?autore), '"+document.getElementById("author").value+"')) FILTER (CONTAINS(STR(?personaggio), '"+document.getElementById("character").value+"')) FILTER (CONTAINS(STR(?opera), '"+document.getElementById("name").value+"')) FILTER (CONTAINS(STR(?luogo), '"+document.getElementById("location").value+"'))} limit 30 "), true);
 
         myXMLHTTPRequest.send(null); }
         else {
@@ -325,7 +325,7 @@ text-shadow: 1px 1px white;
           $('#myModal').modal('show'); 
         }
         if (risultato.length==0) {
-          document.getElementById('corpo').innerHTML="<p>No results</p>"
+          document.getElementById('corpo').innerHTML="<p>...</p>"
         $('#myModal').modal('show');    
         }}
         
