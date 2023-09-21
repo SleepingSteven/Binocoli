@@ -291,15 +291,17 @@ text-shadow: 1px 1px white;
         myXMLHTTPRequest = new XMLHttpRequest(); myXMLHTTPRequest.onreadystatechange = showData;
         
         //myXMLHTTPRequest.setRequestHeader("query=SELECT * { ?s ?p ?o } LIMIT 1")
-        myXMLHTTPRequest.open("GET", "https://3e6d835ebc1c16.lhr.life/bigdata/sparql?query="+encodeURIComponent("select distinct ?titolo ?autore ?link ?luogo ?data where {?link ?p ?opera; <http://erlangen-crm.org/current/P2_has_type> <http://corago.unibo.it/resource/TADE/LB1&LB1LB>; <http://corago.unibo.it/sm/CPBC23_work_author_in_source> ?author; rdfs:label ?titolo; <http://corago.unibo.it/sm/CPBC22_place_of_publication> ?luog; <http://erlangen-crm.org/current/P67_refers_to> ?play. ?luog rdfs:label ?luogo. ?play <http://corago.unibo.it/sm/CPBC5_character_performance> ?pers; <http://erlangen-crm.org/current/P4_has_time-span> ?date. ?date rdfs:label ?data. ?pers rdfs:label ?personaggio. ?author rdfs:label ?autore. FILTER (CONTAINS(STR(?autore), '"+document.getElementById("author").value+"')) FILTER (CONTAINS(STR(?personaggio), '"+document.getElementById("character").value+"')) FILTER (CONTAINS(STR(?opera), '"+document.getElementById("name").value+"')) FILTER (CONTAINS(STR(?luogo), '"+document.getElementById("location").value+"'))} limit 30 "), true);
+        myXMLHTTPRequest.open("GET", "https://c78ad28a214848.lhr.life/bigdata/sparql?query="+encodeURIComponent("select distinct ?titolo ?autore ?link ?luogo ?data where {?link ?p ?opera; <http://erlangen-crm.org/current/P2_has_type> <http://corago.unibo.it/resource/TADE/LB1&LB1LB>; <http://corago.unibo.it/sm/CPBC23_work_author_in_source> ?author; rdfs:label ?titolo; <http://corago.unibo.it/sm/CPBC22_place_of_publication> ?luog; <http://erlangen-crm.org/current/P67_refers_to> ?play. ?luog rdfs:label ?luogo. ?play <http://corago.unibo.it/sm/CPBC5_character_performance> ?pers; <http://erlangen-crm.org/current/P4_has_time-span> ?date. ?date rdfs:label ?data. ?pers rdfs:label ?personaggio. ?author rdfs:label ?autore. FILTER (CONTAINS(STR(?autore), '"+document.getElementById("author").value+"')) FILTER (CONTAINS(STR(?personaggio), '"+document.getElementById("character").value+"')) FILTER (CONTAINS(STR(?opera), '"+document.getElementById("name").value+"')) FILTER (CONTAINS(STR(?luogo), '"+document.getElementById("location").value+"'))} limit 30 "), true);
 
         myXMLHTTPRequest.send(null); }
         else {
           alert( "Please enter at least one field" );
         }
         function showData() {
+          document.getElementById('corpo').innerHTML="<p>Loading...</p>"
         if (myXMLHTTPRequest.readyState == 4) {
         if (myXMLHTTPRequest.status == 200) { //reads the response
+
         xmlDoc = myXMLHTTPRequest.responseXML; // locates the fragment
         risultato=xmlDoc.querySelectorAll("result");
         links=xmlDoc.querySelectorAll("binding[name='link']");
@@ -307,6 +309,7 @@ text-shadow: 1px 1px white;
         autori=xmlDoc.querySelectorAll("binding[name='autore']");
         luoghi=xmlDoc.querySelectorAll("binding[name='luogo']");
         date=xmlDoc.querySelectorAll("binding[name='data']");
+        document.getElementById('corpo').innerHTML="";
         for (let i=0; i<risultato.length; i++) {
                 var link=links[i].getElementsByTagName("uri")[0].innerHTML;
                 console.log(link)  
@@ -314,15 +317,13 @@ text-shadow: 1px 1px white;
                 var autore=autori[i].innerHTML;  
                 var luogo=luoghi[i].innerHTML;
                 var data=date[i].innerHTML;
-                if (titolo.includes('Favorite')||titolo.includes('Favorita')||titolo.includes('Guzman')||titolo.includes('Leonora')||titolo.includes('Daila')||titolo.includes('Elda')){
+                if (titolo.includes('Favorite')||titolo.includes('favorite')||titolo.includes('favorita')||titolo.includes('Favorita')||titolo.includes('leonora')||titolo.includes('Guzman')||titolo.includes('Leonora')||titolo.includes('Daila')||titolo.includes('Elda')){
                 document.getElementById('corpo').insertAdjacentHTML("beforeend","<p><a href='pagine/favorita.html'>'"+titolo+"'</a>&nbsp;"+luogo+"&nbsp;"+data+"</p><p>"+autore+"&nbsp;"+"<a href='"+link+"' target='_blank'>View in Corago</a><hr>");
                 }
                 else {
                   document.getElementById('corpo').insertAdjacentHTML("beforeend","<p>'"+titolo+"'&nbsp;"+luogo+"&nbsp;"+data+"</p><p>"+autore+"&nbsp;"+"<a href='"+link+"' target='_blank'>View in Corago</a><hr>");  
                 }
               }
-        }
-          $('#myModal').modal('show'); 
         }
         setTimeout(() => {
           if (risultato.length==0) {
@@ -331,6 +332,10 @@ text-shadow: 1px 1px white;
         }
         }, 3000);
         }
+          $('#myModal').modal('show'); 
+          
+        }
+        
         
        }
         
