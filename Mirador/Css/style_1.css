@@ -46,7 +46,7 @@ body{
 #green:before { background-color: rgb(11, 194, 11); }
 #orange:before { background-color: orange; }
 #red:before { background-color: red; }
-#light-blue:before { background-color: lightblue; }
+#light-blue:before { background-color: rgb(101, 209, 245); }
 #brown:before { background-color: brown; }
 
 
