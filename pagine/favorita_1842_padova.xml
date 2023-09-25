@@ -40,13 +40,17 @@
         <stage> <persName xml:id="Leonora"><forename>Leonora</forename></persName> distesa in terra, <persName xml:id="Fernando"><forename>Fernando</forename></persName>, <persName xml:id="Baldassare"><forename>Baldassare</forename></persName> che esce dal tempio seguito dai <roleName>Montanari</roleName> e <roleName>Soldati</roleName></stage>
         <sp>
             <speaker><persName corresp="#Fernando"><forename>Fer.</forename></persName></speaker>
+        
+        <stage>(a <persName corresp="#Baldassare"><forename>Bal.</forename></persName>)</stage> <l>Oh padre, è <rs type="coreference"><ref target="#Leonora"/>dessa</rs>!
+        </l>
         <l>
-        <stage>(a <persName corresp="#Baldassare"><forename>Bal.</forename></persName>)</stage> Oh padre, è <rs type="coreference"><ref target="#Leonora"/>dessa</rs>! Mira <persName corresp="#Leonora"><forename>Leonora</forename></persName>!
+          Mira <persName corresp="#Leonora"><forename>Leonora</forename></persName>!
         </l>
         </sp>
         <sp>
             <speaker><persName corresp="#Baldassare"><forename>Bal.</forename></persName></speaker>
-            <l><stage>(avvicinandosi al cadavere)</stage>
+            <stage>(avvicinandosi al cadavere)</stage>
+             <l>
              Oh chi vegg’io?
             </l>
         </sp>
@@ -59,7 +63,8 @@
         <sp>
             <speaker><persName corresp="#Baldassare"><forename>Bal.</forename></persName></speaker>
             <l>
-             Silenzio, <rs type="coreference"><ref target="#Leonora"/>ella</rs> è già spenta <stage>(poi si volge Sul peregrin novello agli <rs type="coreference"><ref target="#Tutti"/>altri</rs>.)</stage>
+             Silenzio, <rs type="coreference"><ref target="#Leonora"/>ella</rs> è già spenta <stage>(poi si volge 
+             Sul peregrin novello agli <rs type="coreference"><ref target="#Tutti"/>altri</rs>.)</stage>
             </l>
         </sp>
         <sp>
@@ -70,7 +75,10 @@
         <sp>
             <speaker><persName corresp="#Fernando"><forename>Fer.</forename></persName></speaker>
             <l>
-             Anch’io Avrò diman la vostra prece.
+             Anch’io 
+            </l>
+            <l>
+             Avrò diman la vostra prece.
             </l>
         </sp>
         <sp>
